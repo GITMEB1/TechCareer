@@ -1,0 +1,43 @@
+opportunity_intel:
+  company: "Convergent"
+  role: "AI Automation Intern"
+
+  team_context:
+    hiring_type: "Capability Expansion / High-Leverage Experiment"
+    likely_pressure: "High - Startup Velocity"
+    revenue_impact: "Direct - Likely automating core delivery or operations"
+
+  stack_maturity:
+    inferred_stack: ["n8n", "Make", "Cursor", "Claude", "Python/JS (Glue)"]
+    maturity_level: "High-Speed / Low-Code Ops"
+    automation_centrality: "Central - The product process IS the automation"
+
+  risk_profile:
+    primary_fear: "High maintenance cost. Fear of 'intern' requiring constant supervision or producing fragile, unmaintainable 'spaghetti' workflows."
+    90_day_failure_mode: "Delivering fast but brittle automations that break silently, creating technical debt for founders."
+    ai_narrative_risk: "Positive Signal (Essential). They explicitly ask for 'AI coding tools'. The risk is NOT using them, or using them confidently but incompetently (producing hallucinations)."
+
+  seniority_expectation:
+    real_level: "Mid-Level disguised as Intern"
+    independence_required: "High. The salary hint (£5k-10k/mo) implies they want a 'Solver', not a learner. They are paying for output, not potential."
+
+  political_signals:
+    documentation_emphasis: "Low (implied risk). Startups often neglect this. Bringing 'Reliability/Documentation' is a killer differentiator."
+    stakeholder_intensity: "Founders/CTO direct report likely."
+    speed_vs_stability_bias: "Speed, but Stability is the hidden value add."
+
+  framing_strategy:
+    emphasize:
+      - "Reliability in Low-Code (Error handling, Retries, Schema Validation)"
+      - "Ownership of 'Day 2' (Maintenance, Documentation)"
+      - "Specific expertise with n8n (not just 'automation')"
+    downplay:
+      - "Need for mentorship"
+      - "Bootcamp/Student identity"
+    avoid:
+      - "Aspiring to learn..."
+      - "Passion for AI..." (Show competence, don't just state passion)
+    micro_example_to_surface: "Handling partial failures in n8n batches or schema validation for LLM outputs."
+    tone_directive: "Peer-to-Peer. 'I solve the problems you're too busy to fix'."
+
+  confidence_level: "High (Inference based on Stack + Salary range)"

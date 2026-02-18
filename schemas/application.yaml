@@ -1,0 +1,22 @@
+# Application Packet Schema (YAML)
+
+id: APP-YYYYMMDD-###
+opportunity_id: OPP-...
+role_title: ""
+company: ""
+date_submitted: YYYY-MM-DD
+materials:
+  cv_version: ""
+  cover_letter: ""
+  portfolio_links:
+    - ""
+evidence_safe_claims_only: true
+alignment_notes:
+  top_3_matching_points:
+    - ""
+  top_3_risk_points:
+    - ""
+follow_up:
+  date: YYYY-MM-DD
+  channel: [Email, LinkedIn, Recruiter, Other]
+status: [Drafting, Submitted, FollowUpSent, Interviewing, Closed]

@@ -1,0 +1,231 @@
+# Opportunity Tracking File
+# Paste these entries into 'tracking/opportunities.yaml'
+#
+# NEW SCHEMA REQUIREMENT:
+# business_context:
+#   pain_hypothesis: "What is expensive, slow, or broken for them right now? (e.g., 'Manual Excel reports are delaying decisions')"
+#   hiring_trigger: "Why now? (e.g., 'New CTO', 'Migration to Cloud', 'Backlog Overflow')"
+
+---
+id: OPP-20260218-001
+date_found: 2026-02-18
+source: JobBoard (StudySmarter)
+role_title: "Data Engineer Apprentice (Level 5)"
+company: "GXO"
+location: "Middleton (M24)"
+work_style: Onsite
+employment_type: Apprenticeship
+seniority: Returner
+fit_score: 10
+fit_reasons:
+  - "Local (M24) matching commute constraints"
+  - "Train-to-hire (Level 5 Apprentice) structure"
+  - "Explicit Data Engineer title with Tableau/PowerBI"
+risks_or_gaps:
+  - "Apprentice salary (£23.5k) may be lower than market, but stable."
+requirements:
+  must_have:
+    - "Level 3 qualification (A-Level equivalent)"
+    - "Genuine interest in data/logistics"
+  nice_to_have:
+    - "Power BI / Tableau exposure"
+actions:
+  next_step: "Apply via StudySmarter/Careers"
+  owner: Danny
+  deadline: 2026-02-18
+evidence:
+  link: "https://www.studysmarter.co.uk/jobs/data-engineer-apprentice-middleton-m24-2yx-1/"
+  notes: "Perfect local fit. Do not miss."
+status: Applied
+  date_applied: 2026-02-18
+
+---
+id: OPP-20260218-002
+date_found: 2026-02-18
+source: CareerReturners
+role_title: "Returner Programme 2026"
+company: "Man Group"
+location: "London (Hybrid/Remote likely for program)"
+work_style: Hybrid
+employment_type: Program
+seniority: Returner
+fit_score: 10
+fit_reasons:
+  - "Explicitly designed for >24 month career gap"
+  - "High-signal tech brand (Hedge Fund Tech)"
+  - "Active application window (Closes March 6)"
+risks_or_gaps:
+  - "London based? Need to verify remote/hybrid flexibility."
+requirements:
+  must_have:
+    - "Career break of 24+ months"
+    - "Prior experience in tech/support"
+  nice_to_have:
+    - "Python / Data exposure"
+actions:
+  next_step: "Draft Returner Statement & Apply"
+  owner: Danny
+  deadline: 2026-02-20
+evidence:
+  link: "https://www.man.com/careers"
+  notes: "Check if 'supported hire' allows remote."
+status: New
+
+---
+id: OPP-20260218-003
+date_found: 2026-02-18
+source: Canonical Careers
+role_title: "Junior Data Engineer"
+company: "Canonical"
+location: "Remote (EMEA)"
+work_style: Remote
+employment_type: Permanent
+seniority: Junior
+fit_score: 9
+fit_reasons:
+  - "100% Remote (EMEA) - Fits location constraint"
+  - "Engineering-first culture (Open Source leader)"
+  - "Junior level but high-tech stack (Go/Python)"
+risks_or_gaps:
+  - "Hiring bar is notoriously high (long interview process)"
+requirements:
+  must_have:
+    - "Python/Go proficiency"
+    - "Linux fundamentals"
+  nice_to_have:
+    - "Juju / Snap experience"
+actions:
+  next_step: "Deep dive tech stack & Apply"
+  owner: Danny
+  deadline: 2026-02-22
+evidence:
+  link: "https://canonical.com/careers"
+  notes: "Focus cover letter on 'Runbooks' and 'Reliability'."
+status: New
+
+---
+id: OPP-20260218-004
+date_found: 2026-02-18
+source: CWJobs
+role_title: "Junior Automation Engineer"
+company: "Various (via Agency)"
+location: "Manchester"
+work_style: Hybrid
+employment_type: Permanent
+seniority: Junior
+fit_score: 8
+fit_reasons:
+  - "Greater Manchester location"
+  - "Automation focus aligns with n8n/process skills"
+  - "High volume of similar listings"
+risks_or_gaps:
+  - "Agency postings can be vague/ghost jobs."
+requirements:
+  must_have:
+    - "Scripting (Python/JS)"
+    - "Testing/QA mindset"
+  nice_to_have:
+    - "Selenium / Cypress"
+actions:
+  next_step: "Batch apply to top 3 on CWJobs"
+  owner: Danny
+  deadline: 2026-02-23
+evidence:
+  link: "https://www.cwjobs.co.uk/jobs/junior-automation-engineer/in-manchester"
+  notes: "Filter provided link for 'Last 3 Days' only."
+status: New
+
+---
+id: OPP-20260218-005
+date_found: 2026-02-18
+source: Convergent (via Indeed/SimplyHired)
+role_title: "AI Automation Intern"
+company: "Convergent"
+location: "Remote (UK)"
+work_style: Remote
+employment_type: Internship
+seniority: Intern/Junior
+fit_score: 9
+fit_reasons:
+  - "Perfect tech stack match (n8n, Make, AI coding)"
+  - "Remote & UK based"
+  - "Strong 'AI-Accelerated' narrative fit"
+risks_or_gaps:
+  - "Internship status (3 months) - need to check if paid well (listed £5k-10k/mo?)"
+requirements:
+  must_have:
+    - "n8n / Make experience"
+    - "AI coding tools (Cursor/Claude)"
+  nice_to_have:
+    - "Portfolio of automations"
+actions:
+  next_step: "Prepare 'AI Automation' specific portfolio & Apply"
+  owner: Danny
+  deadline: 2026-02-20
+evidence:
+  link: "https://convergent.io/careers or via Indeed"
+  notes: "High priority. If salary is real, this is a golden ticket."
+status: New
+
+---
+id: OPP-20260218-006
+date_found: 2026-02-18
+source: Curiosity Software Careers
+role_title: "Junior Technical Support Engineer"
+company: "Curiosity Software Ireland (UK)"
+location: "Remote (UK)"
+work_style: Remote
+employment_type: Permanent
+seniority: Junior
+fit_score: 8
+fit_reasons:
+  - "Bridge role: Support -> Data/Quality"
+  - "Remote"
+  - "Aligns with 10y Support experience"
+risks_or_gaps:
+  - "Might be more support than engineering initially"
+requirements:
+  must_have:
+    - "Support experience"
+    - "Interest in Data/Testing"
+  nice_to_have:
+    - "Test Data Management knowledge"
+actions:
+  next_step: "Apply with 'Reliability' narrative"
+  owner: Danny
+  deadline: 2026-02-21
+evidence:
+  link: "https://curiositysoftware.ie/careers"
+  notes: "Leverage reliability experience."
+status: New
+
+---
+id: OPP-20260218-007
+date_found: 2026-02-18
+source: Quid (via Job Boards)
+role_title: "Applied Analytics Engineer"
+company: "Quid"
+location: "Remote (UK)"
+work_style: Remote
+employment_type: Permanent
+seniority: Associate/Mid
+fit_score: 7
+fit_reasons:
+  - "Requires n8n experience (Rare find)"
+  - "Remote"
+risks_or_gaps:
+  - "Might be too senior? 'Applied Analytics' often implies mid-senior."
+requirements:
+  must_have:
+    - "n8n workflow automation"
+    - "Data pipeline experience"
+  nice_to_have:
+    - "AI integration"
+actions:
+  next_step: "Check full JD for seniority level"
+  owner: Danny
+  deadline: 2026-02-22
+evidence:
+  link: "https://quid.com/careers"
+  notes: "Reach opportunity. Good for n8n evidence."
+status: New

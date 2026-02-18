@@ -1,0 +1,29 @@
+# Opportunity Capture Schema (YAML)
+
+id: OPP-YYYYMMDD-###
+date_found: YYYY-MM-DD
+source: [LinkedIn, TechReturners, Northcoders, Indeed, Recruiter, Referral, Other]
+role_title: ""
+company: ""
+location: ""
+work_style: [Onsite, Hybrid, Remote, Unknown]
+employment_type: [Permanent, Contract, Program, Apprenticeship, Unknown]
+seniority: [Returner, Associate, Junior, Mid, Unknown]
+fit_score: 0  # 0–10 (agent estimate; must explain)
+fit_reasons:
+  - ""
+risks_or_gaps:
+  - ""
+requirements:
+  must_have:
+    - ""
+  nice_to_have:
+    - ""
+actions:
+  next_step: ""
+  owner: Danny
+  deadline: YYYY-MM-DD
+evidence:
+  link: ""
+  notes: ""
+status: [New, Applied, Interviewing, Waiting, Rejected, Won, Archived]

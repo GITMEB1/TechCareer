@@ -1,0 +1,135 @@
+# SSOT — Danny Jackson (Career + Stability Source of Truth)
+**Version:** 1.1  
+**Date:** 2026-02-18  
+**Purpose:** Canonical, evidence-safe reference for AntiGravity agents. SSOT contains facts, approved phrasing, and verification rules. It must not introduce unverifiable marketing claims.
+
+---
+
+## 0) Canonical Identity
+- **Name:** Danny Jackson
+- **Base:** Greater Manchester, UK
+- **Primary professional email:** dannyjackson0208@gmail.com
+- **Phone:** 07377 789022
+- **LinkedIn:** www.linkedin.com/in/danny-jackson-604141386
+
+---
+
+## 1) Credibility Policy (Non-negotiable)
+### 1.1 Evidence labels
+Any measurable claim must be labeled:
+- **VERIFIED (External Proof):** MUST have a public link, screenshot, exported report, ticket log, repo, or third-party confirmation. If you cannot link to it, it is NOT verified.
+- **REALITY PROOF (Dates/Identity):** Employment dates, contact details, identity facts (LinkedIn/CV timeline).
+- **SUPPORTED (SSOT):** Plausible claim grounded in role/project description, but lacks external public proof.
+- **UNVERIFIED (Do Not Use):** Remove from CV/cover letters.
+
+### 1.2 Banned claims (do not use unless VERIFIED with external proof)
+- **Absolutes:** 100%, zero-defect, guaranteed, never breaks, perfect, eliminated
+- **Multipliers:** 2x/3x/10x faster, “dramatically”, “exponentially”
+- **Undefined Engineering Labels:** self-healing, strictly typed, orchestrated agents, intelligence engine
+- **Tone Hazards:** "I don't need hand-holding", "I don't need to be managed", "deployed" (in context of "need to be deployed")
+
+### 1.3 Approved safer replacements
+| Risky Term | Approved Replacement |
+| :--- | :--- |
+| “self-healing” | “retries, error handling, logging, and alerting” |
+| “strictly typed” | “schema-validated payloads (JSON Schema)” |
+| “orchestrated agents” | “multi-step prompt workflow with structured inputs/outputs” |
+| “100% reliable” | “resilient to failure”, “robust”, “high-reliability” |
+| “zero-defect” | “low-defect”, “minimized regressions” |
+| “eliminated hallucinations” | “reduced hallucination risk”, “mitigated hallucination” |
+| “Senior Judgment at Machine Speed” | “Operational Rigour at AI Speed” |
+
+---
+
+## 2) North Star Goal
+Return to stable tech income via **returner / train-to-hire / bridge** opportunities with consistent weekly execution:
+Shortlist → apply → follow up → interview → close.
+
+---
+
+## 3) Target Role Archetypes
+### Primary targets
+- Associate / Junior Data Engineer (returner/train-to-hire)
+- Junior/Associate Automation / Workflow Engineer
+- Implementation Engineer (automation + data mapping focus)
+- Tech Ops / Platform Support with clear progression into engineering
+
+### Avoid
+- Senior SWE roles requiring 5+ years commercial dev
+- Dead-end helpdesk roles with no progression
+- Unpaid internships
+
+---
+
+## 4) Positioning (Approved, Evidence-Safe)
+### One-liner (approved)
+Delivery-first Implementation & Support specialist (10+ years) applying operational rigour to **AI-augmented automation** (n8n, APIs, SQL). I reduce delivery risk by treating workflows as production software: versioned, documented, and validated.
+
+### Tagline (Use sparingly)
+**"Operational Rigour at AI Speed."** (Replaces "Senior Judgment at Machine Speed")
+
+### AI-Accelerated Developer definition (approved)
+I use AI to accelerate boilerplate and syntax, but I own architecture, correctness, documentation, and delivery risk. My operating mode is: **Generate → Verify → Commit**.
+
+### What NOT to claim
+Do not claim speed multipliers or “senior output” without evidence. Prefer: “reduces time spent on boilerplate” and “increases iteration speed while maintaining verification.”
+
+---
+
+## 5) Employment Timeline (Canonical)
+### Cloud Commerce Group (formerly ChannelGrabber)
+- **Dates:** Jun 2013 – Nov 2022
+- **Progression:** Technical Support (L1/L2) → Implementation/Onboarding responsibilities
+- **Context notes:** Continuous employment across rename/transition.
+
+### 360insights — Implementation Specialist
+- **Dates:** Jun 2023 – Nov 2023
+- **Context:** Role concluded at end of probation.
+
+---
+
+## 6) Skills Matrix (Honesty Audit)
+Scale: Conceptual proficiency vs Syntax-from-memory.
+
+| Skill / Tool | Conceptual | Syntax | AI-Augmented Workflow (Approved wording) |
+|---|---:|---:|---|
+| SQL | High | Med | AI drafts query variants; Danny validates and refines against real data. |
+| Data mapping / validation | High | Med | AI drafts checklists/templates; Danny defines rules + acceptance criteria. |
+| APIs (integration) | High | Med | AI scaffolds payload examples/tests; Danny isolates failures and documents fixes. |
+| n8n automation | High | Med | AI accelerates patterns; Danny hardens reliability with retries/logging/error handling. |
+| YAML / JSON / schemas | High | High(JSON)/Med(YAML) | AI generates schema variants; Danny enforces stable structure + validation. |
+| Git / GitHub | Med | Med | AI suggests hygiene; Danny reviews and commits only verified changes. |
+| Python (automation glue) | Med | Low–Med | AI generates boilerplate; Danny debugs runtime issues and enforces IO handling. |
+| Documentation / RCA / runbooks | High | High | AI formats notes; Danny ensures accuracy and operational usefulness. |
+| Prompt + Context Engineering | High | Med | Danny defines intent/constraints; AI drafts; Danny tests and reduces drift. |
+
+---
+
+## 7) Flagship Project (Portfolio Anchor)
+### AntiGravity Context Pack
+**SUPPORTED (SSOT):** Built a structured automation framework that centralises opportunity tracking and converts unstructured inputs into verifiable actions.
+
+**Components:**
+- Missions: Opportunity Radar, Application Factory, Networking Outreach
+- Schemas: validation for Opportunities / Applications
+- Guardrails: human-in-the-loop verification
+- Discipline: Planning → Execution → Evidence logging
+
+**Important caution:** Do not market this as “deployed production software” unless you can show a repo, demo, or runtime evidence.
+
+---
+
+## 8) Evidence Backlog (Do not use professionally yet)
+- Build/cycle-time reductions
+- Time-saved claims
+- Volume claims (tickets, incidents, migrations)
+- Any “rate” or “percent” improvements
+
+---
+
+## 9) Weekly Cadence (Minimum viable)
+1. Opportunity Radar → shortlist 10 → pick top 3
+2. Apply within 48 hours
+3. Follow up last week’s submissions
+4. Log outcomes + update tracking
+5. Produce next week’s plan
