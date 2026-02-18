@@ -1,31 +1,31 @@
 # Prompt for Google 3.0 Pro Deep Research Agent
 
 **Role:** Google 3.0 Pro Deep Research
-**Objective:** Critically analyze the provided "TechCareer AntiGravity System" architectural context and optimize the high-value intersection between the **SSOT (Single Source of Truth)** and the **Application Factory**.
+**Objective:** Critically analyze the **TechCareer AntiGravity System** infrastructure and optimize the *logic* that governs artifact generation, ensuring strict adherence to the "Evidence-Safe" philosophy.
 
 **Core Question:**
-"How can we maximize the interview conversion rate for a 'returning-to-tech' candidate (10y exp -> Data/Auto) by refining the way the SSOT feeds into the Application Factory?"
+"How can we harden the system's infrastructure (Prompts, Schemas, workflows) to strictly prevent 'confident nonsense' and ensure every generated application is high-signal, evidence-backed, and devoid of marketing fluff?"
 
 **Reference Materials:**
 (Please ingest the attached `architectural_context.md` which summarizes the system.)
 
 **Target Analysis Areas:**
 
-1.  **Narrative Logic ("AI-Accelerated Developer"):**
-    *   **Critique:** Does the current positioning statement in the SSOT (focused on reliability/risk reduction) effectively counter the bias against career gaps and platform pivots?
-    *   **Improvement:** Suggest concrete phrasing or structural changes to the SSOT that make the "AI-Accelerated" claim feel like a *feature* (seniority leverage) rather than a *bug* (skill gap filler).
+1.  **Governance Logic (The "Banned Words" Sync):**
+    *   **Critique:** Are the "Banned Behaviors/Terms" defined in `SSOT.md` actually *enforced* by the `application_factory.md` prompt? Is there a risk of "prompt drift" where the model ignores negative constraints?
+    *   **Improvement:** Propose a verifiable mechanism (e.g., a specific "Gate" step or a structured output schema for the gate) that *forces* the model to acknowledge and check these rules before writing final copy.
 
-2.  **Prompt Engineering (Application Factory):**
-    *   **Critique:** The current prompt enforces "No Cringe / No Hallucinations." Does it *also* successfully enforce "High Value Signal"? Or does it risk producing dry, forgettable applications?
-    *   **Improvement:** Propose specific instructions or "Examples of Excellence" to add to the `application_factory.md` prompt that force the agent to extract specific, numerical, or improved outcome data from the SSOT more aggressively.
+2.  **Intel Fidelity (The "So What?" Factor):**
+    *   **Critique:** Does the `opportunity_intel.yaml` actually influence the final Cover Letter tone? Or does the Application Factory just default to a generic "I am a fit" structure?
+    *   **Improvement:** Suggest specific prompt instructions or variable injections that *force* the Application Factory to quote the `intel.framing_strategy` in its reasoning block before drafting key sentences.
 
-3.  **Data Structure (SSOT & Opportunity Tracking):**
-    *   **Critique:** Is the current `opportunities.yaml` schema capturing the *right* data to feed the Application Factory? Are we missing a "Company Pain Point" field that would allow better tailoring?
-    *   **Improvement:** Suggest 1-2 critical fields to add to the Opportunity Schema or SSOT that would drastically improve the personalization of the generated Cover Letter.
+3.  **Schema Evolution (Capturing "Pain"):**
+    *   **Critique:** Does the current `opportunities.yaml` or `opportunity_intel.yaml` schema capture enough specific "Pain Points" from the JD to allow for truly tailored evidence selection?
+    *   **Improvement:** Suggest 1-2 critical fields (e.g., `primary_risk_factor`, `decision_maker_persona`) to add to `opportunity_intel.yaml` that would drastically improve the targeting of the output.
 
 **Deliverable:**
-*   A prioritized list of 3-5 "High Impact Interventions" to the system architecture.
-*   For each intervention:
-    *   **The Problem:** Why the current setup is suboptimal.
-    *   **The Fix:** Specific text to add/edit in `SSOT.md`, `application_factory.md`, or `opportunities.yaml`.
-    *   **The Expected Value:** Why this change increases interview probability.
+*   A prioritized list of 3-5 "Infrastructure Hardening Actions".
+*   For each action:
+    *   **The Vulnerability:** Where the current logic might allow "fluff" or "hallucination".
+    *   **The Fix:** Specific prompt syntax, schema field, or workflow step to add.
+    *   **The Verification:** How we will know it's working (e.g., "The Language Gate log will show 0 false negatives").

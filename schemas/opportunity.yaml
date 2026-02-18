@@ -6,6 +6,9 @@ source: [LinkedIn, TechReturners, Northcoders, Indeed, Recruiter, Referral, Othe
 role_title: ""
 company: ""
 location: ""
+business_context:
+  pain_hypothesis: "" # Expensive, slow, or broken process
+  hiring_trigger: "" # Why now? (CTO change, Migration, etc)
 work_style: [Onsite, Hybrid, Remote, Unknown]
 employment_type: [Permanent, Contract, Program, Apprenticeship, Unknown]
 seniority: [Returner, Associate, Junior, Mid, Unknown]

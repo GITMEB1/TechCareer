@@ -1,0 +1,49 @@
+# Opportunity Intelligence Schema (YAML)
+# Source: prompts/opportunity_intel.md
+# Purpose: Strategic analysis brief generated before application drafting.
+
+opportunity_intel:
+  company: ""
+  role: ""
+
+  team_context:
+    hiring_type: "" # replacement, growth, capability expansion
+    likely_pressure: ""
+    revenue_impact: "" # revenue-facing or internal tooling
+
+  stack_maturity:
+    inferred_stack: []
+    maturity_level: "" # modern/cloud-native or legacy-integrated
+    automation_centrality: ""
+
+  risk_profile:
+    primary_risk_factor: "" # What failure would get the hiring manager fired?
+    90_day_failure_mode: ""
+    ai_narrative_risk: "" # Positive Signal, Neutral, Skeptical, High Risk
+
+  decision_maker_persona:
+    role: "" # e.g. VP Engineering
+    likely_bias: "" # e.g. Skeptical of consultants
+    risk_tolerance: "" # Low/High
+    language_preference: "" # Operational metrics / Vision
+
+  seniority_expectation:
+    real_level: "" # actual expectation vs title
+    independence_required: ""
+
+  political_signals:
+    documentation_emphasis: ""
+    stakeholder_intensity: ""
+    speed_vs_stability_bias: ""
+
+  framing_strategy:
+    emphasize:
+      - ""
+    downplay:
+      - ""
+    avoid:
+      - ""
+    micro_example_to_surface: ""
+    tone_directive: ""
+
+  confidence_level: ""

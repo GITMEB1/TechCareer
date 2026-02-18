@@ -1,0 +1,43 @@
+opportunity_intel:
+  company: "The Christie NHS Foundation Trust"
+  role: "Data Engineer"
+
+  team_context:
+    hiring_type: "Modernisation / Capability Expansion"
+    likely_pressure: "Accuracy & Governance (Clinical Reporting)"
+    revenue_impact: "Operational Efficiency / Patient Outcome Support"
+
+  stack_maturity:
+    inferred_stack: ["SQL Server", "Python", "Git", "Power BI/Reporting"]
+    maturity_level: "Transitioning (Legacy to Modern)"
+    automation_centrality: "Emerging (5-year modernisation program)"
+
+  risk_profile:
+    primary_fear: "Breaking critical clinical reporting flows / Lack of rigorous process"
+    90_day_failure_mode: "Ignoring Change Management (RFC) or producing 'clever' but unmaintainable code"
+    ai_narrative_risk: "Skeptical - Stability and auditability > 'Magic' automation"
+
+  seniority_expectation:
+    real_level: "Mid-Level"
+    independence_required: "Moderate - Execution within strict frameworks"
+
+  political_signals:
+    documentation_emphasis: "Critical (RFCs, Version Control explicitly mentioned)"
+    stakeholder_intensity: "High (Clinical/Business reporting)"
+    speed_vs_stability_bias: "Stability"
+
+  framing_strategy:
+    emphasize:
+      - "Formal Process (RFC/Git)"
+      - "Python Automation for reliability"
+      - "SQL Server expertise"
+    downplay:
+      - "Move fast and break things"
+      - "Experimental Tech"
+    avoid:
+      - "Unverified AI claims"
+      - "Disruption"
+    micro_example_to_surface: "Automating a legacy report pipeline with Python while maintaining strict audit trails"
+    tone_directive: "Reliable, disciplined, methodic. 'Safe Pair of Hands'."
+
+  confidence_level: "High - JD is specific on modernization context"

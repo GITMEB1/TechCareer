@@ -229,3 +229,100 @@ evidence:
   link: "https://quid.com/careers"
   notes: "Reach opportunity. Good for n8n evidence."
 status: New
+
+---
+id: OPP-20260218-008
+date_found: 2026-02-18
+source: JPMorgan Chase Careers
+role_title: 'ReEntry Program 2026 (Software Engineer)'
+company: 'JPMorgan Chase'
+location: 'UK (London/Bournemouth/Glasgow)'
+work_style: Hybrid
+employment_type: Program
+seniority: Returner
+fit_score: 9
+fit_reasons:
+  - 'Explicit Returner Program matching career break criteria'
+  - 'Prestigious brand with structured training'
+  - 'Active application window (Closes Feb 28)'
+risks_or_gaps:
+  - 'Location constraint: Manchester not guaranteed (likely London/Bournemouth)'
+requirements:
+  must_have:
+    - 'Career break of 2+ years'
+    - 'Prior software engineering experience (Java/Python)'
+  nice_to_have:
+    - 'Cloud experience'
+actions:
+  next_step: 'Check location flexibility & Apply'
+  owner: Danny
+  deadline: 2026-02-24
+evidence:
+  link: 'https://careers.jpmorgan.com/global/en/professionals/reentry-program'
+  notes: 'High value target if location works.'
+status: New
+
+---
+id: OPP-20260218-009
+date_found: 2026-02-18
+source: NHS Jobs / The Christie
+role_title: 'Data Engineer Apprentice (Level 5)'
+company: 'NHS (The Christie / MFT)'
+location: 'Manchester'
+work_style: Onsite
+employment_type: Apprenticeship
+seniority: Returner
+fit_score: 10
+fit_reasons:
+  - 'Perfect Train-to-hire archetype'
+  - 'Local (Manchester)'
+  - 'Fully funded qualification + Salary (~£28k)'
+risks_or_gaps:
+  - 'Competition for NHS roles can be high'
+requirements:
+  must_have:
+    - 'Interest in Data Engineering'
+    - 'GCSE Maths/English'
+  nice_to_have:
+    - 'SQL exposure'
+actions:
+  next_step: 'Search specific NHS trust sites for active link & Apply'
+  owner: Danny
+  deadline: 2026-02-25
+evidence:
+  link: 'https://www.jobs.nhs.uk'
+  notes: 'Ideal for stability goal.'
+status: New
+
+---
+id: OPP-20260218-010
+date_found: 2026-02-18
+source: UBDS Careers
+role_title: 'Associate Data Engineer'
+company: 'UBDS Group'
+location: 'Manchester'
+work_style: Hybrid
+employment_type: Permanent
+seniority: Associate
+fit_score: 9
+fit_reasons:
+  - 'Manchester based'
+  - 'Modern Data Stack (AWS/Azure/Python)'
+  - 'Associate level fits skills matrix'
+risks_or_gaps:
+  - 'Consultancy pace might be fast'
+requirements:
+  must_have:
+    - 'SQL & Python'
+    - 'Cloud basics'
+  nice_to_have:
+    - 'Power BI'
+actions:
+  next_step: 'Tailor CV for Modern Data Stack & Apply'
+  owner: Danny
+  deadline: 2026-02-26
+evidence:
+  link: 'https://ubds.com/careers'
+  notes: 'Good balance of challenge and support.'
+status: New
+

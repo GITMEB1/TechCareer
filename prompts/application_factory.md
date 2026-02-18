@@ -23,47 +23,82 @@ Output: “Missing opportunity_intel.yaml — run Intel phase first.”
 
 ---
 
-## 2) Analysis (JD → Pain → Evidence)
+
+## 2) Analysis & Pain Point Extraction
 - Read JD and extract:
   - top 5 requirements (must-haves)
   - top 3 pain signals (what is expensive/slow/risky)
   - tone/culture signals (documentation, ownership, speed vs stability)
-- Read `opportunity_intel.yaml` and adopt its:
-  - framing_strategy (emphasise/downplay/avoid)
-  - AI narrative calibration
-  - implied seniority expectation
+- Read `opportunity_intel.yaml` (if present) to align risks.
 
-**Rule:** Do not “keyword map” only. Always map *capability → pain point* using SSOT.
+**MANDATORY OUTPUT:** Before proceeding, output this JSON block:
+```json
+{
+  "pain_analysis": {
+    "pain_points": [
+      {
+        "category": "COST|RISK|VELOCITY",
+        "description": "e.g. 'Slow deployment cycles causing feature delay'",
+        "ssot_match": "e.g. 'AntiGravity Context Pack (Velocity)'"
+      }
+    ],
+    "nightmare_scenario": "The implicit fear driving this hire (e.g. 'Data loss during migration')"
+  }
+}
+```
 
 ---
 
-## 3) Draft Artifacts (Evidence-safe)
+## 2.5) Intel Binding (MANDATORY - Before Drafting)
+**CRITICAL:** You must output this block *verbatim* before generating any draft text.
+
+```text
+INTEL_BINDING:
+Framing Strategy: "[Insert verbatim from intel.framing_strategy]"
+Primary Risk: "[Insert verbatim from intel.risk_profile.primary_risk_factor]"
+Persona: "[Insert verbatim from intel.decision_maker_persona.role]"
+
+Application Plan:
+- Opening Hook: [How strategy shapes the first 2 lines]
+- Evidence Selection: [Which project/role mitigates the Primary Risk]
+- Tone Calibration: [Adjusting for Persona's bias/risk tolerance]
+```
+
+**STOP.** Do not proceed to drafting until this binding is complete.
+
+---
+
+## 3) Draft Artifacts (Evidence-Safe & High-Density)
+
+### Global Drafting Constraints
+1.  **Evidence Density:** Each paragraph must contain at least 1 **measurable outcome** OR **specific artifact reference** OR **JD phrase mirrored**.
+2.  **Claim Source Lock:** All capability statements must use this structure:
+    > `[Skill/Capability]` + demonstrated by + `[specific artifact/role]` + resulting in + `[measurable outcome]`
+    *Unverifiable "I have experience in..." claims are BANNED.*
+3.  **Anti-Cringe Constraints (Vocabulary Check):**
+    -   **BANNED:** "Spearheaded", "Passion", "Ninja", "Rockstar", "Seamless", "Game-changer", "Synergy".
+    -   **REQUIRED:** "Engineered", "Optimized", "Validated", "Reduced", "Stabilized", "Orchestrated".
 
 ### 3.1 CV Bullets (`cv_bullets.md`)
 - Select 3–6 bullets grounded in SSOT.
 - Rewrite using the JD language *only where accurate*.
-- Every bullet must pass the “So What?” test:
-
-**Bullet syntax (preferred):**
-- “[Business outcome] by [action] using [tool/skill] (evidence: [SSOT ref])”
+- Apply **Claim Source Lock** to every bullet.
 
 **Forbidden:**
 - Absolutes (100%, zero-defect, guaranteed, never breaks)
 - Multipliers (2x/3x/10x faster)
 - Undefined engineering terms (self-healing, strictly typed, orchestrated agents)
 
-If you want to imply robustness, you must specify mechanism:
-- “retries + error handling + logging + validation” (only if supported by SSOT language)
+### 3.2 Value Proposition Memo (formerly Cover Letter, `cover_letter.md`)
+**Strategy:** distinct from a generic cover letter. It is a "Pain-Solving Proposal".
 
-### 3.2 Cover Letter (`cover_letter.md`)
-**Do NOT connect to Danny’s “North Star.”** That is internal motivation, not employer value.
+**Structure (Strict Adherence):**
+1.  **The Hook (Pain Hypothesis):** "I see you are hiring for `[Role]`. Based on the requirements for `[Requirement A]` and `[Requirement B]`, I suspect you are solving for `[Pain Point from Analysis]`."
+2.  **The Bridge (Legacy Stability):** "In my 10 years of `[Legacy Role]`, I stabilized similar systems by `[Action Vector from SSOT]`. I bring the discipline of a senior support engineer who has seen every way a system can fail."
+3.  **The Pivot (Modern Application):** "I have applied this operational rigour to the Modern Data Stack by `[Gap Role Activity - e.g. building schema-validated n8n pipelines]`. This allows me to bridge the gap between rapid automation and production stability."
+4.  **The Close:** "I would welcome a brief discussion on how this 'Risk-First' approach could stabilize your `[Project/Goal]`."
 
-Use this structure:
-1) **Hook (1–2 lines):** Who + what role + what you specialise in now.
-2) **Company Fit (2–4 lines):** Why this company/team (based on Intel signals).
-3) **Value Bridge (3 bullets max):** “Because I have done X, I can reduce Y risk / deliver Z outcome.”
-4) **AI Narrative (1–2 lines):** “AI assists boilerplate; I own verification and delivery risk.” (SSOT-approved phrasing only)
-5) **Close:** Confident and polite.
+**Constraint:** Do NOT act like a generic junior. Speak peer-to-peer about solving the problem.
 
 ### 3.3 Claims Table (`claims_table.md`) — Non-circular
 Every claim must include *evidence type*:
@@ -81,16 +116,41 @@ Columns:
 
 ---
 
-## 4) Language Risk Gate (MANDATORY) — before user review
-Scan all artifacts for banned patterns (from SSOT policy):
-- 100%, zero-defect, guaranteed, never breaks, perfect
-- 2x/3x/10x faster
-- self-healing, strictly typed, orchestrated agents, intelligence engine
+## 4) Evidence & Language Gate (MANDATORY JSON Check)
 
-For each hit:
-- log in `language_gate.md`
-- replace with SSOT-approved alternatives
-- if a claim cannot be rewritten safely, remove it
+**Before user review**, you must validate your draft. Output this JSON block. 
+
+If `gate_status` is `FAIL`, you MUST regenerate the artifacts before proceeding.
+
+```json
+{
+  "banned_language_check": {
+    "violations_found": true/false,
+    "violating_phrases": []
+  },
+  "evidence_traceability_check": {
+    "claims_in_output": [
+      {
+        "claim": "...",
+        "source_type": "resume|portfolio|intel|jd",
+        "source_reference": "exact bullet or field",
+        "verifiable": true/false
+      }
+    ]
+  },
+  "evidence_density_check": {
+    "paragraphs_checked": 0,
+    "paragraphs_meeting_density_rule": 0,
+    "status": "PASS/FAIL"
+  },
+  "gate_status": "PASS|FAIL"
+}
+```
+
+**Failure Conditions:**
+- Any banned phrase found (SSOT 1.2).
+- Any claim with `verifiable: false`.
+- Evidence Density < 100% (every paragraph must have grounding).
 
 ---
 

@@ -1,0 +1,42 @@
+opportunity_intel:
+  company: "NHS (The Christie Foundation Trust)"
+  role: "Data Engineer Apprentice (Level 5)"
+
+  team_context:
+    hiring_type: "Modernization & Capability Expansion"
+    likely_pressure: "Moderate-High (Clinical reporting accuracy is critical)"
+    revenue_impact: "Indirect but critical (Patient care & Operational efficiency)"
+
+  stack_maturity:
+    inferred_stack: ["Python", "SQL Server", "ETL Pipelines", "Legacy Reporting Systems"]
+    maturity_level: "Transitioning (Moving from legacy to modern pipelines)"
+    automation_centrality: "High (Automating data integration is a core duty)"
+
+  risk_profile:
+    primary_fear: "Data breaches, inaccurate clinical reporting, system instability."
+    90_day_failure_mode: "Breaking a critical pipeline, ignoring Information Governance, or inability to learn Python/SQL fast enough."
+    ai_narrative_risk: "High Risk. 'Generative' approaches might be seen as hallucination risks in clinical contexts. Must emphasize verification/safety."
+
+  seniority_expectation:
+    real_level: "Entry-level competence with mature judgment"
+    independence_required: "Moderate (Mentorship provided, but 'work independently' is listed)"
+
+  political_signals:
+    documentation_emphasis: "High ('fully documented')"
+    stakeholder_intensity: "High ('communicating complex requirements to non-technical staff')"
+    speed_vs_stability_bias: "Stability 100% (Healthcare environment)"
+
+  framing_strategy:
+    emphasize:
+      - "Reliability & Safety (Information Governance)"
+      - "Process documentation & troubleshooting"
+      - "Commitment to public service/healthcare"
+    downplay:
+      - "Speed/Hacking"
+      - "Bleeding edge tech"
+    avoid:
+      - "disrupt", "break things", "AI autonomy"
+    micro_example_to_surface: "Handling sensitive data or documenting a complex fix."
+    tone_directive: "Service-oriented, cautious, diligent, eager to learn."
+
+  confidence_level: "High (JD is detailed)"

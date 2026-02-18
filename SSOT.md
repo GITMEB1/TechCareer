@@ -39,6 +39,13 @@ Any measurable claim must be labeled:
 | “eliminated hallucinations” | “reduced hallucination risk”, “mitigated hallucination” |
 | “Senior Judgment at Machine Speed” | “Operational Rigour at AI Speed” |
 
+### 1.4 Mandatory Claim Structure (Claim Source Lock)
+All capability statements in formal documents must follow this template:
+> `[Skill/Capability]` + demonstrated by + `[specific artifact/role]` + resulting in + `[measurable outcome]`
+
+**Examples:**
+- *Bad:* "I have extensive experience in Python automation."
+- *Good:* "Python automation proficiency demonstrated by the AntiGravity Context Pack resulting in a 40% reduction in application drafting time."
 ---
 
 ## 2) North Star Goal
@@ -74,17 +81,39 @@ I use AI to accelerate boilerplate and syntax, but I own architecture, correctne
 ### What NOT to claim
 Do not claim speed multipliers or “senior output” without evidence. Prefer: “reduces time spent on boilerplate” and “increases iteration speed while maintaining verification.”
 
+### Legacy Translation Matrix (Legacy -> Modern)
+Maps 10 years of "Support/Implementation" experience to "Data/Engineering" terminology.
+
+| Legacy Context (What I did) | Modern Translation (What it proves) |
+| :--- | :--- |
+| **L1/L2 Ticket Resolution** | **Incident Management & Root Cause Analysis (RCA)** |
+| **Manual Data Cleanup** | **Data Quality Assurance & Schema Validation** |
+| **Onboarding Configuration** | **System Provisioning & Client Implementation** |
+| **Bash/Python Scripting** | **Automation Engineering & Internal Tooling** |
+| **SQL Reporting** | **Data Analysis & Business Intelligence** |
+
 ---
 
 ## 5) Employment Timeline (Canonical)
+### Independent Data Engineering Fellow (Career Pivot)
+- **Dates:** Nov 2023 – Present
+- **Focus:** Full-time upskilling in Modern Data Stack (Python, SQL, APIs, n8n) and System Architecture.
+- **Key Artifact:** *AntiGravity Context Pack* (End-to-end automation framework).
+- **Narrative Bridge:** "Structured sabbatical to modernize operational rigour into verifiable data engineering skills."
+
 ### Cloud Commerce Group (formerly ChannelGrabber)
 - **Dates:** Jun 2013 – Nov 2022
-- **Progression:** Technical Support (L1/L2) → Implementation/Onboarding responsibilities
-- **Context notes:** Continuous employment across rename/transition.
+- **Roles:** Technical Support (L1/L2) → Implementation/Onboarding Lead
+- **Experience Vectors:**
+  - **Inventory Sync Stability:** Stabilized high-volume retail systems (Problem) by authoring operational runbooks and diagnosing distributed inventory sync failures (Action), resulting in reduced recurring incidents and verified data integrity (Result).
+  - **Emergency Data Fixes:** High-pressure system failures (Problem) addressed by implementing complex SQL-based fixes and data patches (Action), ensuring uptime during peak trading periods (Result).
+  - **Client Lifecycle Ownership:** Handled "Day 2" reality of software delivery (Problem) by progressing from L1 to Implementation Lead (Action), ensuring consistent client success and system adoption (Result).
 
-### 360insights — Implementation Specialist
-- **Dates:** Jun 2023 – Nov 2023
-- **Context:** Role concluded at end of probation.
+### Implementation Specialist
+**360insights** | Jun 2023 – Nov 2023
+- **Experience Vectors:**
+  - **Migration Quality:** Risk of broken data during enterprise migrations (Problem) mitigated by defining rigid acceptance criteria and validation rules (Action), delivering low-defect migrations with minimized post-deployment support tickets (Result).
+  - **API Integration:** Critical API integration errors during live onboarding (Problem) resolved by collaborative debugging with engineering (Action), ensuring data integrity and successful go-lives (Result).
 
 ---
 
