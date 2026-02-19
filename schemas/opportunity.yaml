@@ -2,7 +2,7 @@
 
 id: OPP-YYYYMMDD-###
 date_found: YYYY-MM-DD
-source: [LinkedIn, TechReturners, Northcoders, Indeed, Recruiter, Referral, Other]
+source: [LinkedIn, TechReturners, Northcoders, Indeed, Recruiter, Referral, Networking, Other]
 role_title: ""
 company: ""
 location: ""
@@ -12,6 +12,8 @@ business_context:
 work_style: [Onsite, Hybrid, Remote, Unknown]
 employment_type: [Permanent, Contract, Program, Apprenticeship, Unknown]
 seniority: [Returner, Associate, Junior, Mid, Unknown]
+salary_range: ""  # e.g. "£28k-£35k" or "Unknown"
+commute_estimate: "" # e.g. "45 mins drive" or "Remote"
 fit_score: 0  # 0–10 (agent estimate; must explain)
 fit_reasons:
   - ""
@@ -29,4 +31,20 @@ actions:
 evidence:
   link: ""
   notes: ""
-status: [New, Applied, Interviewing, Waiting, Rejected, Won, Archived]
+
+# --- Lifecycle Status ---
+# Single FSM: Discovered -> Qualified -> IntelReady -> Drafting -> ReadyToSubmit -> Submitted -> Responded -> Interviewing -> Offer|Rejected|Withdrawn -> Archived
+status: [Discovered, Qualified, IntelReady, Drafting, ReadyToSubmit, Submitted, FollowUpSent, Responded, Interviewing, Offer, Rejected, Withdrawn, Archived]
+
+# --- Outcome Telemetry (populate after submission) ---
+outcome:
+  date_shortlisted: YYYY-MM-DD    # When added to active pipeline
+  date_started: YYYY-MM-DD        # When application drafting began
+  date_submitted: YYYY-MM-DD      # When actually submitted to employer
+  date_response: YYYY-MM-DD       # When first response received (or null)
+  response_type: [None, Interview, Rejection, RequestInfo, Offer, Unknown]
+  rejection_reason_code: [NoResponse, Overqualified, Underqualified, SalaryMismatch, ExperienceGap, InternalHire, RoleWithdrawn, Other, Unknown]
+  rejection_notes: ""             # Free text — what was communicated
+  interview_count: 0              # Number of interview stages reached
+  origin_channel: [JobBoard, Referral, DirectApply, Networking, Recruiter, Other]
+  application_id: ""              # Links to applications/YYYY-MM-DD-Company/ folder

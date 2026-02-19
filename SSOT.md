@@ -41,6 +41,8 @@ Any measurable claim must be labeled:
 - **Tone Hazards:** "I don't need hand-holding", "I don't need to be managed", "deployed" (in context of "need to be deployed")
 - **Soft Absolutes (added 2026-02-19):** "perfectly aligns", "failure was not an option", "every way a system can fail", "absolute stability", "Day 1 impact" (unless evidence-linked)
 - **Unsourced Reputation Claims (added 2026-02-19):** "Safe Pair of Hands" (unless externally referenced), any "reputation" claim without a named source
+- **Consultancy-Speak (added 2026-02-19):** "world-class", "best-in-class", "proven track record", "trusted advisor", "thought leader", "transformative", "seamlessly", "unparalleled", "robust at scale" (unless evidenced), "mission-critical expert", "end-to-end ownership" (unless evidenced)
+
 
 ### 1.3 Approved safer replacements
 | Risky Term | Approved Replacement |

@@ -106,9 +106,8 @@ claims:
     > `[Skill/Capability]` + demonstrated by + `[specific artifact/role]` + resulting in + `[observable outcome]`
     *Unverifiable "I have experience in..." claims are BANNED. Percentage/rate/multiplier claims require VERIFIED external proof per SSOT §8.*
 3.  **Anti-Cringe Constraints (Vocabulary Check):**
-    -   **BANNED:** Strictly enforce the FULL 'Banned claims' and 'Tone Hazards' lists found in SSOT Section 1.2 (including Soft Absolutes and Unsourced Reputation Claims). No exceptions.
-    -   **PREFERRED:** "Engineered", "Optimized", "Validated", "Reduced", "Stabilized", "Diagnosed", "Documented".
-    -   **NOTE:** "Orchestrated" is removed from the required list — it conflicts with SSOT §1.2 ban on "orchestrated agents" and risks producing banned constructions under pressure.
+    -   **BANNED:** Strictly enforce the FULL 'Banned claims' and 'Tone Hazards' lists found in SSOT Section 1.2 (including Soft Absolutes, Unsourced Reputation Claims, and Consultancy-Speak). No exceptions.
+    -   **PREFERRED:** "Engineered", "Optimized", "Validated", "Reduced", "Stabilized", "Diagnosed", "Documented", "Mitigated".
 
 ### 3.1 CV Bullets (`cv_bullets.md`)
 - Select 3–6 bullets grounded in SSOT.
