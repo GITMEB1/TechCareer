@@ -1,4 +1,4 @@
-# Opportunity Radar Board (Template)
+# Opportunity Radar Board
 
 | ID | Date Found | Role | Company | Location | Fit (0-10) | Next Step | Deadline | Status | Link |
 |---|---|---|---|---|---:|---|---|---|---|
