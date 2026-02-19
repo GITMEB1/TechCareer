@@ -77,16 +77,38 @@ Target SSOT Capability: "[Which skill solves it]"
 
 ---
 
+## 2.7) Pre-Draft Claim Inventory (MANDATORY)
+Before writing ANY artifact, produce a `claim_inventory.yaml` listing every claim you intend to make:
+
+```yaml
+claims:
+  - claim: "[Exact phrasing you plan to use]"
+    ssot_section: "[Section number + field name]"
+    evidence_label: "VERIFIED|SUPPORTED|UNVERIFIED"
+    evidence_ref: "[URL, file path, or SSOT quote]"
+```
+
+**Rules:**
+- Any claim with `evidence_label: UNVERIFIED` → DELETE before drafting.
+- Any claim using a metric from SSOT §8 (Evidence Backlog) → DELETE unless you can provide VERIFIED external proof.
+- `jd` is NOT a valid evidence source for candidate capability claims (JD describes what they want, not what Danny can do).
+- User must approve this inventory before you proceed to Step 3.
+
+**STOP.** Do not proceed to drafting until the claim inventory is approved.
+
+---
+
 ## 3) Draft Artifacts (Evidence-Safe & High-Density)
 
 ### Global Drafting Constraints
-1.  **Evidence Density:** Each paragraph must contain at least 1 **measurable outcome** OR **specific artifact reference** OR **JD phrase mirrored**.
+1.  **Evidence Density:** Each paragraph must contain at least 1 **specific artifact reference** OR **SSOT-grounded action** OR **JD requirement mirrored with honest capability match**. Measurable outcomes are welcome ONLY if they have VERIFIED or SUPPORTED evidence — do NOT invent metrics to satisfy this rule. SSOT §8 (Evidence Backlog) items are BANNED from use.
 2.  **Claim Source Lock:** All capability statements must use this structure:
-    > `[Skill/Capability]` + demonstrated by + `[specific artifact/role]` + resulting in + `[measurable outcome]`
-    *Unverifiable "I have experience in..." claims are BANNED.*
+    > `[Skill/Capability]` + demonstrated by + `[specific artifact/role]` + resulting in + `[observable outcome]`
+    *Unverifiable "I have experience in..." claims are BANNED. Percentage/rate/multiplier claims require VERIFIED external proof per SSOT §8.*
 3.  **Anti-Cringe Constraints (Vocabulary Check):**
-    -   **BANNED:** Strictly enforce the 'Banned claims' and 'Tone Hazards' lists found in SSOT Section 1.2. No exceptions.
-    -   **REQUIRED:** "Engineered", "Optimized", "Validated", "Reduced", "Stabilized", "Orchestrated".
+    -   **BANNED:** Strictly enforce the FULL 'Banned claims' and 'Tone Hazards' lists found in SSOT Section 1.2 (including Soft Absolutes and Unsourced Reputation Claims). No exceptions.
+    -   **PREFERRED:** "Engineered", "Optimized", "Validated", "Reduced", "Stabilized", "Diagnosed", "Documented".
+    -   **NOTE:** "Orchestrated" is removed from the required list — it conflicts with SSOT §1.2 ban on "orchestrated agents" and risks producing banned constructions under pressure.
 
 ### 3.1 CV Bullets (`cv_bullets.md`)
 - Select 3–6 bullets grounded in SSOT.
@@ -141,8 +163,9 @@ If `gate_status` is `FAIL`, you MUST regenerate the artifacts before proceeding.
     "claims_in_output": [
       {
         "claim": "...",
-        "source_type": "resume|portfolio|intel|jd",
-        "source_reference": "exact bullet or field",
+        "source_type": "ssot|portfolio|intel",
+        "source_reference": "exact SSOT section or artifact path",
+        "evidence_label": "VERIFIED|SUPPORTED",
         "verifiable": true/false
       }
     ]

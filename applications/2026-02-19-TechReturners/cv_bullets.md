@@ -2,7 +2,7 @@
 
 ## Professional Summary (Tailored)
 **Implementation & Support Specialist pivoting to Data Engineering.**
-10+ years delivering stability in high-pressure SaaS environments. Recently completed a rigorous, self-directed 18-month upskilling sabbatical to modernize technical skills (Python, SQL, Automation). Seeking to combine decade-long operational maturity with fresh data engineering capabilities to deliver reliability from Day 1.
+10+ years delivering stability in high-pressure SaaS environments. Recently completed a rigorous, self-directed upskilling period to modernize technical skills (Python, SQL, Automation). Seeking to combine decade-long operational maturity with fresh data engineering capabilities to deliver reliable, production-minded work.
 
 ## Key Experience Blocks (SSOT Mapping)
 
@@ -10,7 +10,7 @@
 **Independent Data Engineering Fellow** | Nov 2023 – Present
 *Structured Career Pivot*
 - **Built "AntiGravity" Context Framework:** Designed and implemented a structured context-injection system for LLM agents, utilizing **YAML schemas** and **Markdown** to enforce strict governance on automated outputs.
-- **Automated Opportunity Tracking:** Engineered an **n8n** workflow to scrape, parse, and categorize job listings, reducing daily search time by 60% while maintaining a "Human-in-the-loop" verification step.
+- **Automated Opportunity Tracking:** Engineered an **n8n** workflow to scrape, parse, and categorize job listings, automating a previously manual daily search process while maintaining a "Human-in-the-loop" verification step.
 - **Python & SQL Practice:** consistently applied **Python** for data transformation and **SQL** for schema validation during the development of personal tooling (Repo available on request).
 
 ### IMPLEMENTATION & STABILITY (The Foundation)
