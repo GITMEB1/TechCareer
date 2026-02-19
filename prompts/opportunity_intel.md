@@ -75,7 +75,11 @@ Given SSOT constraints, recommend:
 
 ---
 
-## Output Format (Strict YAML)
+## Output Strategy (File Write + Chat Summary)
+
+**Step 1: Write to File**
+Write the following YAML content strictly to `opportunity_intel.yaml`. 
+**Do NOT** wrap the content in markdown code blocks within the file (raw YAML only).
 
 ```yaml
 opportunity_intel:
@@ -133,7 +137,8 @@ opportunity_intel:
 
 ## Final Step
 
-After producing the YAML, provide a 5-bullet executive summary explaining:
+**Step 2: Chat Output**
+After writing the file, your chat response should *only* contain the 5-bullet executive summary:
 
 * The biggest leverage insight.
 * The biggest risk to manage.

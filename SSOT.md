@@ -12,6 +12,18 @@
 - **Phone:** 07377 789022
 - **LinkedIn:** www.linkedin.com/in/danny-jackson-604141386
 
+## 0.5) Hard Constraints (Non-negotiable)
+- **Salary Floor:** £27,000 minimum
+- **Commute:**
+  - Hybrid: Max 60 mins drive
+  - Onsite: Max 30 mins drive
+- **Notice Period:** [Standard/Immediate - confirm if needed, default to 'Available']
+
+## 0.6) Tooling Proficiency (Specifics)
+- **Ticketing/CS:** Resolve, Intercom, Jira, Zendesk, HubSpot
+- **OS:** Linux (Comfortable, growing to Admin)
+- **SQL:** Intermediate (Joins, Aggregations) - No advanced window functions yet
+
 ---
 
 ## 1) Credibility Policy (Non-negotiable)

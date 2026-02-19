@@ -1,0 +1,38 @@
+target_role: Associate Data Engineer (Returner / Northcoders Stream)
+company: Tech Returners / Northcoders Group
+source_url: "https://www.techreturners.com/"
+
+# 1. THE PAIN (Why are they hiring?)
+pain_points:
+  - "The 'Experience Gap': Companies need diverse, experienced talent but can't find senior engineers who also know modern data stacks."
+  - "Retention risk: Junior hires often lack professional maturity or soft skills; Returners bring 10+ years of stability but need a tech refresh."
+  - "Consultancy demand: 'Counter' (Northcoders consultancy) needs verifiable engineers to deploy into client teams immediately after upskilling."
+
+# 2. THE TEAM & STACK
+team_culture:
+  - "Psychological Safety first (Returner focus)."
+  - "Growth Mindset: 'Learned Today' axiom."
+  - "Consultancy-ready: Professional, reliable, autonomous."
+tech_stack:
+  - "Python (Pandas, Numpy)"
+  - "SQL (PostgreSQL, Cloud Data Warehouses)"
+  - "Cloud Engineering (AWS/Azure basics)"
+  - "DevOps (CI/CD, Infrastructure as Code)"
+
+# 3. YOUR STRATEGY (The 'Hook')
+framing_strategy: "The 'Operational Anchor'. You are not a 'bootcamp grad' start-from-zero junior. You are a 10-year veteran of high-pressure Support/Implementation who has spent 18 months rigorously modernizing your stack. You bring the stability of a senior hire with the hunger of a learner."
+tone_directive: "Humble but professionally dense. No 'ninja/rockstar'. Focus on 'Reliability', 'Process', and 'Architecture'."
+risk_profile: "High reward, verifiable capability. The risk is 'will he adapt to code?' -> Proof: The AntiGravity Context Pack (Repo)."
+
+# 4. KEY REQUIREMENTS MAPPING (SSOT)
+requirements_map:
+  - req: "Technical Aptitude / Code Literacy"
+    match: "SSOT: Python/SQL upskilling (Independent Fellow) + 10y technical troubleshooting."
+  - req: "Professional Maturity / Soft Skills"
+    match: "SSOT: Client Lifecycle Ownership (ChannelGrabber), Implementation Lead experience."
+  - req: "Cloud/DevOps Awareness"
+    match: "SSOT: API Integration (360insights), CI/CD awareness from AntiGravity project."
+  - req: "Commitment to Learning"
+    match: "SSOT: 2-year self-directed pivot, building complex agentic frameworks."
+
+executive_summary: "A perfect match for the 'Counter' model. Danny offers the 'Safe Pair of Hands' that consultancy clients crave, backed by fresh, verified data engineering skills. The application should stress that the 'career break' was a 'strategic re-platforming' of his skillset."

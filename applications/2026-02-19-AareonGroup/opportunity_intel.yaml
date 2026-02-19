@@ -1,0 +1,41 @@
+opportunity_intel:
+  company: "Aareon Group"
+  role: "Senior Technical Support Specialist"
+
+  team_context:
+    hiring_type: "Capability Stability / Leadership"
+    likely_pressure: "Moderate to High (Escalations)"
+    revenue_impact: "Retention (Churn prevention via support quality)"
+
+  stack_maturity:
+    inferred_stack: ["SaaS Property Software", "SQL", "Ticketing Systems (ServiceNow/Jira?)", "Windows/Linux"]
+    maturity_level: "Established Enterprise SaaS"
+    automation_centrality: "Likely low in support, opportunity for improvement"
+
+  risk_profile:
+    primary_risk_factor: "Knowledge Silos & Escalation Overload"
+    90_day_failure_mode: "Becomes a ticket churning drone instead of a process leader."
+    ai_narrative_risk: "Neutral/Positive (if framed as efficiency tools, not magic)"
+
+  seniority_expectation:
+     real_level: "Senior / Lead"
+     independence_required: "High (Mentoring others)"
+
+  political_signals:
+    documentation_emphasis: "High (Process improvement mentioned)"
+    stakeholder_intensity: "High (Bridge between Product/Dev/Support)"
+    speed_vs_stability_bias: "Stability (Enterprise Real Estate)"
+
+  framing_strategy:
+    emphasize:
+      - "10 Years Operational Rigour"
+      - "Bridge between Support & Engineering (Dev-language fluency)"
+      - "Runbook authoring & Knowledge Management"
+    downplay:
+      - "Junior Data Engineering" (Frame as 'Advanced Troubleshooting Skills')
+    avoid:
+      - "I want to be a developer" (Frame as 'I am a technical support expert who speaks dev')
+    micro_example_to_surface: "Stabilizing Inventory Sync at Cloud Commerce Group (Runbooks & RCA)"
+    tone_directive: "Senior Peer. Experienced. Calm under pressure. Process-oriented."
+
+  confidence_level: "High"

@@ -17,7 +17,7 @@ Help Danny regain **stability and earnings** by ensuring opportunities do not sl
 ## Credibility & evidence policy
 - Any metric must be labeled:
   - VERIFIED (evidence attached)
-  - PLAUSIBLE (no evidence yet)
+  - SUPPORTED (grounded in SSOT, no external proof)
   - UNVERIFIED (do not use in CV/interviews)
 - Default to **UNVERIFIED** unless proof exists.
 

@@ -1,3 +1,104 @@
-# Opportunity Log
-# Schema: schemas/opportunity.yaml
-# Status: New, Applied, Rejected, Interview, Offer
+opportunity_list:
+  - id: OPP-20260219-001
+    date_found: 2026-02-19
+    source: Tech Returners / Northcoders
+    role_title: Associate Data Engineer (Returner Program)
+    company: Various (via Tech Returners)
+    location: Manchester (Hybrid/Remote)
+    business_context:
+      pain_hypothesis: "Talent gap in data engineering; need for diverse, experienced hires returning to tech."
+      hiring_trigger: "Ongoing program cohorts."
+    work_style: Hybrid
+    employment_type: Program
+    seniority: Returner
+    fit_score: 9
+    fit_reasons:
+      - "Perfect Pivot aligned: Structured upskilling + guaranteed interview."
+      - "Matches 'Returner/Bridge' North Star."
+    risks_or_gaps:
+      - "Highly competitive entry."
+      - "Fixed start dates (cohort based)."
+    requirements:
+      must_have:
+        - "Previous tech experience or STEM background."
+        - "Interest in Data/Cloud."
+      nice_to_have:
+        - "Python/SQL basics."
+    actions:
+      next_step: "Submit Application Pack"
+      owner: Danny
+      deadline: 2026-02-21
+    evidence:
+      link: "https://www.techreturners.com/"
+      notes: "Check specifically for 'Counter' or 'Northcoders' associate roles."
+    status: New
+
+  - id: OPP-20260219-002
+    date_found: 2026-02-19
+    source: BuiltInManchester
+    role_title: Senior Technical Support Specialist
+    company: Aareon Group
+    location: Manchester
+    business_context:
+      pain_hypothesis: "Complex SaaS property management software requiring deep troubleshooting beyond scripts."
+      hiring_trigger: "Growth/Stability needs."
+    work_style: Hybrid
+    employment_type: Permanent
+    seniority: Senior
+    fit_score: 8
+    fit_reasons:
+      - "Strong Support background alignment (Speed Mode)."
+      - "SQL requirement matches current skills."
+      - "SaaS context matches ChannelGrabber experience."
+    risks_or_gaps:
+      - "Might be too manual/legacy?"
+      - "Need to verify 'Senior' expectations vs Salary."
+    requirements:
+      must_have:
+        - "SQL skills."
+        - "SaaS support experience."
+      nice_to_have:
+        - "Real estate tech experience."
+    actions:
+      next_step: "Intel Scan (Speed Mode)."
+      owner: Danny
+      deadline: 2026-02-21
+    evidence:
+      link: "https://www.builtinmanchester.uk/"
+      notes: "Search result via Aareon Group."
+    status: New
+
+  - id: OPP-20260219-003
+    date_found: 2026-02-19
+    source: Indeed
+    role_title: Junior Regulatory Data SQL Support Engineer
+    company: Unknown (Salford based)
+    location: Salford/Manchester
+    business_context:
+      pain_hypothesis: "Regulatory reporting requires accuracy; manual errors are costly."
+      hiring_trigger: "Compliance needs."
+    work_style: Onsite/Hybrid (Verify)
+    employment_type: Permanent
+    seniority: Junior/Associate
+    fit_score: 9
+    fit_reasons:
+      - "Perfect Bridge role: Support title + Data duties."
+      - "SQL heavy - builds the 'Data Engineer' evidence block."
+      - "Regulatory context implies high value on accuracy (SSOT strength)."
+    risks_or_gaps:
+      - "Salford location - check commute <30m?"
+      - "Legacy stack risk?"
+    requirements:
+      must_have:
+        - "Strong SQL."
+        - "Data accuracy focus."
+      nice_to_have:
+        - "Financial/Regulatory knowledge."
+    actions:
+      next_step: "Locate direct job posting."
+      owner: Danny
+      deadline: 2026-02-21
+    evidence:
+      link: "Search Result: Junior Regulatory Data SQL Support Engineer"
+      notes: "Found via Indeed aggregation."
+    status: New
