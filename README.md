@@ -28,6 +28,7 @@ Use the agent to execute workflows found in `.agent/workflows/`. You can ask the
 
 ## Project Structure
 
+- **`.agent/changelog.md`**: Historical context and log of structural project updates. Agents MUST read this.
 - **`.agent/workflows/`**: Interactive workflows for the agent to follow.
 - **`applications/`**: Output directory for generated application packs.
 - **`prompts/`**: System prompts used to steer agent behavior (e.g., `opportunity_intel.md`).

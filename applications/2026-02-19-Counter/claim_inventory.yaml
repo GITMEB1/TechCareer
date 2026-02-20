@@ -1,0 +1,25 @@
+claims:
+  - claim: "Operational rigour and troubleshooting proficiency demonstrated by stabilizing high-volume retail systems at ChannelGrabber, resulting in reduced recurring incidents and verified data integrity."
+    ssot_section: "5 (Employment Timeline - Cloud Commerce Group / Experience Vectors)"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §5.2"
+
+  - claim: "Python automation proficiency demonstrated by the AntiGravity Context Pack, resulting in increased iteration speed while maintaining human-led validation."
+    ssot_section: "6 (Skills Matrix) and 7 (Flagship Project)"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §6 and §7.1"
+
+  - claim: "Data engineering foundation demonstrated by full-time upskilling in the Modern Data Stack (Python, SQL, APIs) during an independent sabbatical, building reproducible workflows."
+    ssot_section: "5 (Employment Timeline - Independent Data Engineering Fellow)"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §5.1"
+
+  - claim: "SQL querying and data patch execution demonstrated by resolving high-pressure system failures during peak trading at ChannelGrabber, ensuring continuous uptime."
+    ssot_section: "5 (Employment Timeline - Cloud Commerce Group / Experience Vectors)"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §5.2"
+
+  - claim: "Data quality assurance demonstrated by mitigating migration risks at 360insights through defining rigid acceptance criteria, delivering low-defect enterprise migrations."
+    ssot_section: "5 (Employment Timeline - Implementation Specialist / Experience Vectors)"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §5.3"

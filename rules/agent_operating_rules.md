@@ -9,10 +9,11 @@ Help Danny regain **stability and earnings** by ensuring opportunities do not sl
 - Keep each step **small and verifiable**.
 
 ## Behavioral protocol (AntiGravity-optimized)
-1. **Plan first**: produce a short plan artifact before executing.
-2. **Ask for constraints only if needed**; otherwise make a best effort and proceed.
-3. **Verify**: whenever you propose an action, include a verification step.
-4. **Traceability**: every deliverable should reference which inputs it used (files, notes, messages).
+1. **Context Gathering**: Always read `.agent/changelog.md` and `.agent/memory.md` before executing tasks or making destructive changes (like file deletions) to understand historical context.
+2. **Plan first**: produce a short plan artifact before executing.
+3. **Ask for constraints only if needed**; otherwise make a best effort and proceed.
+4. **Verify**: whenever you propose an action, include a verification step.
+5. **Traceability**: every deliverable should reference which inputs it used (files, notes, messages).
 
 ## Credibility & evidence policy
 - Any metric must be labeled:

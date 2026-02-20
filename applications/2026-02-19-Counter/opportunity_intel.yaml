@@ -1,0 +1,43 @@
+opportunity_intel:
+  company: "Counter (Northcoders Group)"
+  role: "Associate Data Engineer"
+
+  team_context:
+    hiring_type: "Capability expansion / Graduate acceleration"
+    likely_pressure: "Scaling client delivery, needing reliable pipeline builders"
+    revenue_impact: "Direct (Consultancy/Client project delivery)"
+
+  stack_maturity:
+    inferred_stack: ["Python", "SQL", "ETL tools", "Data Warehouses", "Data Lakes"]
+    maturity_level: "Modern Data Stack (Consultancy-grade)"
+    automation_centrality: "High — focus on automated pipelines and ETL"
+
+  risk_profile:
+    primary_fear: "Junior engineers breaking client data pipelines or requiring excessive hand-holding."
+    90_day_failure_mode: "Inability to reliably validate data transformations or communicate issues clearly to stakeholders."
+    ai_narrative_risk: "Neutral to Positive. As a tech-training native company, they likely appreciate AI acceleration if it's coupled with rigorous human verification."
+
+  seniority_expectation:
+    real_level: "Associate / Bridge"
+    independence_required: "Moderate. Mentorship exists, but expects proactive problem solving and operational discipline."
+
+  political_signals:
+    documentation_emphasis: "Likely High (Consulting environment needs clear handover)."
+    stakeholder_intensity: "High (Client-facing implications)."
+    speed_vs_stability_bias: "Stability bias with a need for scalable speed."
+
+  framing_strategy:
+    emphasize:
+      - "Operational rigour and structured problem solving learned from 10+ years of Support/Implementation."
+      - "The 'Generate -> Verify -> Commit' workflow preventing pipeline errors."
+      - "Strong foundation in SQL and Python data validation."
+    downplay:
+      - "Specific gaps in Databricks/Data Lake specific tooling if not asked."
+      - "Legacy ticketing systems (focus instead on the *data* side of those tickets)."
+    avoid:
+      - "Consultancy-speak ('world-class', 'seamless'). Counter aims for practical competence."
+      - "Any unverified claims about data volume."
+    micro_example_to_surface: "Stabilizing high-volume inventory syncs (ChannelGrabber) by defining rigid acceptance criteria for data patches."
+    tone_directive: "Reliable, disciplined, and focused on risk-mitigated technical delivery. Peer-to-peer respect, not junior pleading."
+
+  confidence_level: "High - Job description aligns perfectly with the North Star pivot strategy."

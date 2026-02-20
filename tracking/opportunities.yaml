@@ -102,3 +102,110 @@ opportunity_list:
       link: "Search Result: Junior Regulatory Data SQL Support Engineer"
       notes: "Found via Indeed aggregation."
     status: New
+
+  - id: OPP-20260219-004
+    date_found: 2026-02-19
+    source: Counter (Northcoders Group)
+    role_title: Associate Data Engineer
+    company: Counter
+    location: Manchester (Hybrid)
+    business_context:
+      pain_hypothesis: "Need reliable, easily supervised engineers to manage ETL and data lakes on client projects."
+      hiring_trigger: "Scaling consultancy team/accelerating graduates."
+    work_style: Hybrid
+    employment_type: Permanent
+    seniority: Associate
+    fit_score: 9
+    fit_reasons:
+      - "Specifically targets 'fast-tracking graduates' and career switchers, perfectly aligning with Danny's North Star pivot."
+      - "Matches Data Engineer targets with support for upskilling."
+    risks_or_gaps:
+      - "Specific 'data lake' knowledge not strongly evidenced in SSOT yet."
+      - "Consulting pace may differ from SaaS support pace."
+    requirements:
+      must_have:
+        - "ETL pipeline experience"
+        - "Python"
+        - "SQL"
+      nice_to_have:
+        - "Data warehousing knowledge"
+    actions:
+      next_step: "Wait for response."
+      owner: Danny
+      deadline: 2026-02-23
+    evidence:
+      link: "https://www.bebee.com/ (Search: Counter Associate Data Engineer Manchester)"
+      notes: "Offers support and extra training, aligns with bridge role."
+    status: Submitted
+    outcome:
+      date_shortlisted: 2026-02-19
+      date_started: 2026-02-19
+      date_submitted: 2026-02-19
+      application_id: "applications/2026-02-19-Counter"
+
+  - id: OPP-20260219-005
+    date_found: 2026-02-19
+    source: Socium Recruitment
+    role_title: Junior Data Engineer
+    company: Unknown (via Socium)
+    location: Manchester (Hybrid)
+    business_context:
+      pain_hypothesis: "Growing data infrastructure requires junior resources to support and maintain Azure pipelines."
+      hiring_trigger: "Team expansion/building modern data platforms."
+    work_style: Hybrid
+    employment_type: Permanent
+    seniority: Junior
+    fit_score: 8
+    fit_reasons:
+      - "Explicitly described as a 'proper junior position for someone keen to learn'."
+      - "Offers mentorship from senior engineers, ideal for bridging the gap."
+    risks_or_gaps:
+      - "Azure specific (ADF, Databricks); Danny's SSOT focuses more on general Python/SQL/n8n."
+    requirements:
+      must_have:
+        - "Python"
+        - "SQL"
+      nice_to_have:
+        - "Azure Data Factory"
+        - "Azure Databricks"
+    actions:
+      next_step: "Investigate Socium posting and assess Azure learning curve."
+      owner: Danny
+      deadline: 2026-02-23
+    evidence:
+      link: "https://www.dataengineeringjobs.co.uk/"
+      notes: "Mentorship-focused role."
+    status: Discovered
+
+  - id: OPP-20260219-006
+    date_found: 2026-02-19
+    source: Digital Waffle
+    role_title: M365 Implementation Engineer
+    company: Unknown (via Digital Waffle)
+    location: Remote UK
+    business_context:
+      pain_hypothesis: "Clients need stable onboarding and migration to Microsoft 365, requiring strong client lifecycle ownership."
+      hiring_trigger: "High volume of SaaS onboarding."
+    work_style: Remote
+    employment_type: Permanent
+    seniority: Associate/Mid
+    fit_score: 8
+    fit_reasons:
+      - "Directly aligns with existing 10-year track record in Implementation and SaaS onboarding."
+      - "Focus on 'training and growth' implies openness to upskilling."
+    risks_or_gaps:
+      - "M365 specific administration vs general SaaS."
+    requirements:
+      must_have:
+        - "Implementation experience"
+        - "Client communication"
+      nice_to_have:
+        - "M365 migration experience"
+    actions:
+      next_step: "Review implementation overlap and decide if it advances the Data pivot."
+      owner: Danny
+      deadline: 2026-02-23
+    evidence:
+      link: "https://www.studysmarter.co.uk/"
+      notes: "Remote UK M365 Implementation Engineer."
+    status: Discovered
