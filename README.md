@@ -30,11 +30,12 @@ Use the agent to execute workflows found in `.agent/workflows/`. You can ask the
 
 - **`.agent/changelog.md`**: Historical context and log of structural project updates. Agents MUST read this.
 - **`.agent/workflows/`**: Interactive workflows for the agent to follow.
-- **`applications/`**: Output directory for generated application packs.
-- **`prompts/`**: System prompts used to steer agent behavior (e.g., `opportunity_intel.md`).
-- **`rules/`**: Operational constraints and safety guardrails (`agent_operating_rules.md`, `safety_guardrails.md`).
-- **`schemas/`**: YAML/JSON schemas ensuring structured data output (`opportunity.yaml`).
-- **`tracking/`**: Logs and trackers for opportunities and networking.
+- **`applications/`**: Output directory for generated application packs (`offer_intel`, `cv_bullets`, `cover_letter`, `claims_table`).
+- **`prompts/`**: System prompts used to steer agent behavior (e.g., `opportunity_intel.md`), now using a strict 3-stage evidence assembly pipeline.
+- **`rules/`**: Operational constraints and safety guardrails (`agent_operating_rules.md`, `safety_guardrails.md`, `policy_lint.yaml`).
+- **`schemas/`**: YAML/JSON schemas ensuring structured data output (`opportunity.yaml`, `approval_manifest.yaml`).
+- **`scripts/`**: Automation scripts (e.g., `render_radar.py` to auto-build tracking boards).
+- **`tracking/`**: Logs and trackers. `opportunities.yaml` is the State Source of Truth here.
 - **`SSOT.md`**: **CRITICAL**. The single source of truth for Danny's experience, skills, and approved phrasings.
 
 ## Ground Rules

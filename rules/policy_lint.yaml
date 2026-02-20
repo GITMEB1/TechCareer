@@ -1,0 +1,25 @@
+# Policy Lint Constraints (YAML)
+# Purpose: Machine-checkable rules to apply to drafted artifacts BEFORE human review.
+
+lint:
+  banned_terms:
+    - "100%"
+    - "zero-defect"
+    - "best-in-class"
+    - "guaranteed"
+    - "foolproof"
+    - "expert"
+    - "guru"
+    - "ninja"
+    - "rockstar"
+    - "self-healing"
+    - "future-proof"
+
+  numeric_claim_requires:
+    - field: "evidence_label"
+      expected: "VERIFIED"
+      error_message: "Numeric or multiplier claims (e.g. 2x, 50%) require a VERIFIED external proof URL."
+
+  every_paragraph_requires:
+    - field: "claim_ref"
+      error_message: "Every paragraph must be grounded in an approved claim ID from SSOT or the Claim Inventory."

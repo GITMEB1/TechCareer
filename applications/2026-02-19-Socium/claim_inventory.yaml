@@ -1,0 +1,24 @@
+claims:
+  - id: "C-01"
+    claim: "Python automation and system architecture capability demonstrated by building the AntiGravity Context Pack."
+    ssot_section: "7) Flagship Project"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §7"
+
+  - id: "C-02"
+    claim: "Ability to support complex infrastructure and ensure data integrity demonstrated by diagnosing distributed inventory sync failures at Cloud Commerce Group."
+    ssot_section: "5) Cloud Commerce Group"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §5"
+
+  - id: "C-03"
+    claim: "SQL problem-solving and reliability demonstrated by implementing complex SQL-based data patches to maintain uptime during peak trading."
+    ssot_section: "5) Cloud Commerce Group"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §5"
+
+  - id: "C-04"
+    claim: "Operational rigour demonstrated by authoring operational runbooks, reducing recurring incidents."
+    ssot_section: "5) Cloud Commerce Group"
+    evidence_label: "SUPPORTED"
+    evidence_ref: "SSOT §5"

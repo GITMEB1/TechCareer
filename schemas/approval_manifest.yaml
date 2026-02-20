@@ -1,0 +1,10 @@
+# Approval Manifest Schema (YAML)
+
+approval_manifest:
+  mode: [auto, manual]
+  reasons:
+    - "NEW_CLAIM_ID"
+    - "UNVERIFIED_EVIDENCE"
+    - "POLICY_LINT_HIT"
+  reviewer: "Danny"
+  approved_at: null

@@ -1,0 +1,5 @@
+approval_manifest:
+  mode: auto
+  reasons: [] # No new claims, no unverified evidence, and no policy lint hits
+  reviewer: "Danny"
+  approved_at: null

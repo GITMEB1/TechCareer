@@ -1,0 +1,53 @@
+opportunity_intel:
+  company: "Unknown (via Socium Recruitment)"
+  role: "Junior Data Engineer"
+
+  team_context:
+    hiring_type: "Capability expansion / growth"
+    likely_pressure: "Moderate - building infrastructure"
+    revenue_impact: "Internal tooling / platform support"
+
+  stack_maturity:
+    inferred_stack:
+      - "Python"
+      - "SQL"
+      - "Azure Data Factory"
+      - "Azure Databricks"
+    maturity_level: "Modern/Cloud-native (Azure)"
+    automation_centrality: "High (Azure pipelines)"
+
+  risk_profile:
+    primary_risk_factor: "Lack of basic engineering fundamentals or inability to learn Azure quickly"
+    90_day_failure_mode: "Overwhelmed by Azure specific tooling (ADF/Databricks) despite Python/SQL knowledge"
+    ai_narrative_risk: "Neutral to Skeptical - they want someone keen to learn their stack"
+
+  decision_maker_persona:
+    role: "Senior Data Engineer / Tech Lead"
+    likely_bias: "Wants someone eager to learn and easy to mentor"
+    risk_tolerance: "Moderate (willing to train Azure if SQL/Python foundation is strong)"
+    language_preference: "Technical fundamentals, eagerness to learn"
+
+  seniority_expectation:
+    real_level: "True Junior"
+    independence_required: "Low (Mentorship-focused)"
+
+  political_signals:
+    documentation_emphasis: "Unknown - inferred moderate"
+    stakeholder_intensity: "Low (isolated to data team initially)"
+    speed_vs_stability_bias: "Stability (support and maintain pipelines)"
+
+  framing_strategy:
+    emphasize:
+      - "Strong foundation in SQL and Python"
+      - "Proven ability to learn complex technical concepts (Career Pivot)"
+      - "Operational rigour from previous support roles"
+    downplay:
+      - "Lack of direct Azure Databricks/ADF experience"
+      - "High-level architectural ownership"
+    avoid:
+      - "Senior-level claims"
+      - "AI automation over-reliance"
+    micro_example_to_surface: "Authoring operational runbooks and diagnosing sync failures at ChannelGrabber"
+    tone_directive: "Humble, eager to learn, grounded in operational reality"
+
+  confidence_level: "High (based on clear 'keen to learn' JD signals)"

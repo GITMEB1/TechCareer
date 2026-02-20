@@ -97,7 +97,7 @@ opportunity_intel:
     automation_centrality: ""
 
   risk_profile:
-    primary_fear: ""
+    primary_risk_factor: ""
     90_day_failure_mode: ""
     ai_narrative_risk: ""
 
@@ -132,6 +132,7 @@ opportunity_intel:
 * No emotional language.
 * No “motivational” phrasing.
 * Be precise and diagnostic.
+* **Validation Rule**: Output MUST exactly match schemas/opportunity_intel.yaml keys. Unknown keys are forbidden.
 
 ---
 

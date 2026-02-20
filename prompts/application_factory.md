@@ -82,7 +82,8 @@ Before writing ANY artifact, produce a `claim_inventory.yaml` listing every clai
 
 ```yaml
 claims:
-  - claim: "[Exact phrasing you plan to use]"
+  - id: "C-01"
+    claim: "[Exact phrasing you plan to use]"
     ssot_section: "[Section number + field name]"
     evidence_label: "VERIFIED|SUPPORTED|UNVERIFIED"
     evidence_ref: "[URL, file path, or SSOT quote]"
@@ -91,64 +92,55 @@ claims:
 **Rules:**
 - Any claim with `evidence_label: UNVERIFIED` → DELETE before drafting.
 - Any claim using a metric from SSOT §8 (Evidence Backlog) → DELETE unless you can provide VERIFIED external proof.
-- `jd` is NOT a valid evidence source for candidate capability claims (JD describes what they want, not what Danny can do).
-- User must approve this inventory before you proceed to Step 3.
+- `jd` is NOT a valid evidence source for candidate capability claims.
+- User must approve this inventory before you proceed.
 
-**STOP.** Do not proceed to drafting until the claim inventory is approved.
+**STOP 1:** Do not proceed to Assembly until the claim inventory is approved.
 
 ---
 
-## 3) Draft Artifacts (Evidence-Safe & High-Density)
+## 3) Stage 2: Assemble Arguments (MANDATORY)
+
+Instead of drafting prose immediately, you must assemble the core arguments utilizing the `id` from your approved claim inventory.
+
+### 3.1 CV Bullets Assembly
+Create a skeletal list of 3–6 bullets mapping exactly to the claim IDs `[C-XX]` that you intend to use.
+
+### 3.2 Value Proposition Memo Assembly (The Bridge Narrative Block)
+You must construct the following `BRIDGE_NARRATIVE_BLOCK` template with constrained variable slots. 
+**Constraint:** All three points MUST explicitly cite specific claim IDs `[C-XX]`.
+
+1) **Legacy Credibility:** `[SSOT role/action]` (e.g. In my 10 years of legacy support...)
+2) **Modernization Proof:** `[SSOT project/tooling]` (e.g. I have applied this operational rigour to the Modern Data Stack by...)
+3) **Role-Relevant Transfer:** `[Specific JD pain solved]` (e.g. This allows me to stabilize your specific deployment cycle...)
+4) **The Close:** "I would welcome a brief discussion on how this 'Risk-First' approach could stabilize your `[Project/Goal]`."
+
+**STOP 2:** Output ONLY the `ARGUMENT_BLOCKS` (CV Bullets + Bridge Narrative Block) alongside their Claim IDs. Wait for user approval. Do NOT compose the final cover letter yet.
+
+---
+
+## 4) Stage 3: Compose Artifacts (Evidence-Safe & High-Density)
+
+Only after `ARGUMENT_BLOCKS` are approved, compose the final `cv_bullets.md` and `cover_letter.md`. 
 
 ### Global Drafting Constraints
-1.  **Evidence Density:** Each paragraph must contain at least 1 **specific artifact reference** OR **SSOT-grounded action** OR **JD requirement mirrored with honest capability match**. Measurable outcomes are welcome ONLY if they have VERIFIED or SUPPORTED evidence — do NOT invent metrics to satisfy this rule. SSOT §8 (Evidence Backlog) items are BANNED from use.
-2.  **Claim Source Lock:** All capability statements must use this structure:
+1. **Deterministic Mapping:** Every single capability/experience sentence in your final output MUST tie back to a previously selected claim ID in the inventory. No net-new claims are allowed during this stage.
+2. **Claim Source Lock:** Capability statements must predictably use:
     > `[Skill/Capability]` + demonstrated by + `[specific artifact/role]` + resulting in + `[observable outcome]`
-    *Unverifiable "I have experience in..." claims are BANNED. Percentage/rate/multiplier claims require VERIFIED external proof per SSOT §8.*
-3.  **Anti-Cringe Constraints (Vocabulary Check):**
-    -   **BANNED:** Strictly enforce the FULL 'Banned claims' and 'Tone Hazards' lists found in SSOT Section 1.2 (including Soft Absolutes, Unsourced Reputation Claims, and Consultancy-Speak). No exceptions.
-    -   **PREFERRED:** "Engineered", "Optimized", "Validated", "Reduced", "Stabilized", "Diagnosed", "Documented", "Mitigated".
+3. **Anti-Cringe Constraints (Vocabulary Check):**
+    - **BANNED:** Strictly enforce the FULL 'Banned claims' and 'Tone Hazards' lists found in SSOT Section 1.2 (including Soft Absolutes, Unsourced Reputation Claims, and Consultancy-Speak). No exceptions.
+    - **PREFERRED:** "Engineered", "Optimized", "Validated", "Reduced", "Stabilized", "Diagnosed", "Documented", "Mitigated".
 
-### 3.1 CV Bullets (`cv_bullets.md`)
-- Select 3–6 bullets grounded in SSOT.
-- Rewrite using the JD language *only where accurate*.
-- Apply **Claim Source Lock** to every bullet.
+### 4.1 Compile `claims_table.md`
+Map every claim utilized into markdown table format. Include columns: Claim Made, Status (VERIFIED/SUPPORTED), Evidence (URL / file path / SSOT section), Notes.
 
-**Forbidden:**
-- Absolutes (100%, zero-defect, guaranteed, never breaks)
-- Multipliers (2x/3x/10x faster)
-- Undefined engineering terms (self-healing, strictly typed, orchestrated agents)
-
-### 3.2 Value Proposition Memo (formerly Cover Letter, `cover_letter.md`)
-**Strategy:** distinct from a generic cover letter. It is a "Pain-Solving Proposal".
-
-**Structure (Strict Adherence):**
-1.  **The Hook (Pain Hypothesis):** "I see you are hiring for `[Role]`. Based on the requirements for `[Requirement A]` and `[Requirement B]`, I suspect you are solving for `[Pain Point from Analysis]`."
-2.  **The Bridge (Legacy Stability):** "In my 10 years of `[Legacy Role]`, I stabilized similar systems by `[Action Vector from SSOT]`. I bring the discipline of a senior support engineer who has seen every way a system can fail."
-3.  **The Pivot (Modern Application):** "I have applied this operational rigour to the Modern Data Stack by `[Gap Role Activity - e.g. building schema-validated n8n pipelines]`. This allows me to bridge the gap between rapid automation and production stability."
-4.  **The Close:** "I would welcome a brief discussion on how this 'Risk-First' approach could stabilize your `[Project/Goal]`."
-
-**Constraint:** Do NOT act like a generic junior. Speak peer-to-peer about solving the problem.
-
-### 3.3 Claims Table (`claims_table.md`) — Non-circular
-Every claim must include *evidence type*:
-
-Statuses:
-- **VERIFIED (External Proof)**: include URL or file path (repo, screenshot, ticket export)
-- **SUPPORTED (SSOT)**: grounded in SSOT role/project description but no external proof yet
-- **UNVERIFIED (Remove)**: delete from CV/CL
-
-Columns:
-- Claim Made
-- Status
-- Evidence (URL / file path / SSOT section)
-- Notes / rewrite if needed
+**STOP 3:** Compose final artifacts strictly from assembled blocks.
 
 ---
 
-## 4) Evidence & Language Gate (MANDATORY JSON Check)
+## 4) Evidence & Language Gate (MANDATORY JSON & MANIFEST Check)
 
-**Before user review**, you must validate your draft. Output this JSON block. 
+**Before user review**, you must validate your draft against `rules/policy_lint.yaml` and output this JSON block. 
 
 If `gate_status` is `FAIL`, you MUST regenerate the artifacts before proceeding.
 
@@ -179,17 +171,41 @@ If `gate_status` is `FAIL`, you MUST regenerate the artifacts before proceeding.
 ```
 
 **Failure Conditions:**
-- Any banned phrase found (SSOT 1.2).
+- Any banned phrase found (SSOT 1.2 or `rules/policy_lint.yaml`).
 - Any claim with `verifiable: false`.
 - Evidence Density < 100% (every paragraph must have grounding).
+
+### 4.2 Generate Approval Manifest & Delta Review
+If `gate_status` is `PASS`, output `approval_manifest.yaml` to determine if manual review is required:
+
+```yaml
+approval_manifest:
+  mode: auto|manual
+  reasons:
+    - "NEW_CLAIM_ID" # If net-new claims were added outside of pre-approved DB
+    - "UNVERIFIED_EVIDENCE" # If any claims lack verified links
+    - "POLICY_LINT_HIT" # If minor tone adjustments were required
+  reviewer: "Danny"
+  approved_at: null
+```
+
+*Note: If `reasons` is empty, set `mode: auto`.*
+
+If regenerating a previously reviewed packet, you MUST also output a `review_delta.md`:
+```markdown
+## Delta Summary
+- Added claims: [C-ID-123]
+- Removed claims: [C-ID-045]
+- Tone shift: "neutral" -> "risk-first"
+- New review blockers: none
+```
 
 ---
 
 ## 5) Review Request (User Gate)
-User reviews:
-- `claims_table.md` (anything UNVERIFIED must be removed)
-- tone: consultancy-ready, collaborative, non-defensive
-- `language_gate.md` confirms no banned terms remain
+User reviews based on the `approval_manifest.yaml`:
+- If `mode: auto`, you may proceed to Final Compilation.
+- If `mode: manual`, the user must explicitly approve the flagged `reasons`, the `claims_table.md`, and any tone/language shifts.
 
 ---
 

@@ -11,6 +11,8 @@ opportunity_list:
     work_style: Hybrid
     employment_type: Program
     seniority: Returner
+    priority: P1
+    category: DATA
     fit_score: 9
     fit_reasons:
       - "Perfect Pivot aligned: Structured upskilling + guaranteed interview."
@@ -31,7 +33,7 @@ opportunity_list:
     evidence:
       link: "https://www.techreturners.com/"
       notes: "Check specifically for 'Counter' or 'Northcoders' associate roles."
-    status: New
+    status: Discovered
 
   - id: OPP-20260219-002
     date_found: 2026-02-19
@@ -45,6 +47,8 @@ opportunity_list:
     work_style: Hybrid
     employment_type: Permanent
     seniority: Senior
+    priority: P2
+    category: SUPPORT
     fit_score: 8
     fit_reasons:
       - "Strong Support background alignment (Speed Mode)."
@@ -66,7 +70,7 @@ opportunity_list:
     evidence:
       link: "https://www.builtinmanchester.uk/"
       notes: "Search result via Aareon Group."
-    status: New
+    status: Discovered
 
   - id: OPP-20260219-003
     date_found: 2026-02-19
@@ -80,6 +84,8 @@ opportunity_list:
     work_style: Onsite/Hybrid (Verify)
     employment_type: Permanent
     seniority: Junior/Associate
+    priority: P1
+    category: OPS
     fit_score: 9
     fit_reasons:
       - "Perfect Bridge role: Support title + Data duties."
@@ -101,7 +107,7 @@ opportunity_list:
     evidence:
       link: "Search Result: Junior Regulatory Data SQL Support Engineer"
       notes: "Found via Indeed aggregation."
-    status: New
+    status: Discovered
 
   - id: OPP-20260219-004
     date_found: 2026-02-19
@@ -115,6 +121,8 @@ opportunity_list:
     work_style: Hybrid
     employment_type: Permanent
     seniority: Associate
+    priority: P1
+    category: DATA
     fit_score: 9
     fit_reasons:
       - "Specifically targets 'fast-tracking graduates' and career switchers, perfectly aligning with Danny's North Star pivot."
@@ -155,6 +163,8 @@ opportunity_list:
     work_style: Hybrid
     employment_type: Permanent
     seniority: Junior
+    priority: P3
+    category: DATA
     fit_score: 8
     fit_reasons:
       - "Explicitly described as a 'proper junior position for someone keen to learn'."
@@ -169,13 +179,13 @@ opportunity_list:
         - "Azure Data Factory"
         - "Azure Databricks"
     actions:
-      next_step: "Investigate Socium posting and assess Azure learning curve."
+      next_step: "Submit Application via Socium Portal"
       owner: Danny
       deadline: 2026-02-23
     evidence:
       link: "https://www.dataengineeringjobs.co.uk/"
       notes: "Mentorship-focused role."
-    status: Discovered
+    status: ReadyToSubmit
 
   - id: OPP-20260219-006
     date_found: 2026-02-19
@@ -189,6 +199,8 @@ opportunity_list:
     work_style: Remote
     employment_type: Permanent
     seniority: Associate/Mid
+    priority: P3
+    category: IMP
     fit_score: 8
     fit_reasons:
       - "Directly aligns with existing 10-year track record in Implementation and SaaS onboarding."
