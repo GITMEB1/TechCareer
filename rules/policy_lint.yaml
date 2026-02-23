@@ -15,6 +15,11 @@ lint:
     - "self-healing"
     - "future-proof"
 
+  allowed_evidence_labels:
+    - "VERIFIED"
+    - "SUPPORTED"
+    - "OPERATIONAL_PROOF"
+
   numeric_claim_requires:
     - field: "evidence_label"
       expected: "VERIFIED"

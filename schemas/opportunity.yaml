@@ -1,34 +1,70 @@
 # Opportunity Capture Schema (YAML)
 meta:
-  schema_version: "2.0"
+  schema_version: "3.0"
   generated_views:
     - tracking/OPPORTUNITY_RADAR.md
 
-
-
 id: OPP-YYYYMMDD-###
 date_found: YYYY-MM-DD
-source: [LinkedIn, TechReturners, Northcoders, Indeed, Recruiter, Referral, Networking, Other]
+source:
+  - LinkedIn
+  - TechReturners
+  - Tech Returners / Northcoders
+  - Northcoders
+  - Indeed
+  - Recruiter
+  - Referral
+  - Networking
+  - BuiltInManchester
+  - Counter (Northcoders Group)
+  - Socium Recruitment
+  - Digital Waffle
+  - Other
 role_title: ""
 company: ""
 location: ""
 business_context:
   pain_hypothesis: "" # Expensive, slow, or broken process
   hiring_trigger: "" # Why now? (CTO change, Migration, etc)
-work_style: [Onsite, Hybrid, Remote, Unknown]
+work_style:
+  - Onsite
+  - Hybrid
+  - Remote
+  - Onsite/Hybrid (Verify)
+  - Hybrid/Remote
+  - Unknown
 employment_type: [Permanent, Contract, Program, Apprenticeship, Unknown]
-seniority: [Returner, Associate, Junior, Mid, Unknown]
+seniority:
+  - Returner
+  - Associate
+  - Junior
+  - Mid
+  - Senior
+  - Junior/Associate
+  - Associate/Mid
+  - Unknown
 priority: [P1, P2, P3, Reject, Unknown]
 category: [SUPPORT, IMP, TAM, DATA, OPS, Unknown]
 salary_range: ""  # e.g. "£28k-£35k" or "Unknown"
 commute_estimate: "" # e.g. "45 mins drive" or "Remote"
 fit_score: 0  # 0–10 (agent estimate; must explain)
-strategy_scores:
-  bridge_alignment_score: 0  # 0-10 (How well it bridges Legacy to Modern)
-  data_trajectory_score: 0   # 0-10 (How much Data/Analytics engineering growth it offers)
-  stability_score: 0         # 0-10 (Company/Role stability)
-  salary_floor_pass: false   # Must be true, else Reject
-  strategic_priority: [P1, P2, P3, Reject] # Rule: If salary_floor_pass is false, MUST equal Reject unless overridden.
+life_fit_score: 0 # 0–10 unified score for logistics + role fit
+
+deployment_track: [Velocity, Pivot, Unknown]
+
+logistics_clearance:
+  salary_floor_met: false
+  commute_viable: false
+  remote_flexibility: [Remote, Hybrid, Onsite, Unknown]
+
+# DEPRECATED (v3.0): Keep for backward compatibility with historical strategy scoring.
+# strategy_scores:
+#   bridge_alignment_score: 0  # 0-10 (How well it bridges Legacy to Modern)
+#   data_trajectory_score: 0   # 0-10 (How much Data/Analytics engineering growth it offers)
+#   stability_score: 0         # 0-10 (Company/Role stability)
+#   salary_floor_pass: false   # Must be true, else Reject
+#   strategic_priority: [P1, P2, P3, Reject] # Rule: If salary_floor_pass is false, MUST equal Reject unless overridden.
+
 fit_reasons:
   - ""
 risks_or_gaps:
