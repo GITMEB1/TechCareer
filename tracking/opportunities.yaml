@@ -1,223 +1,261 @@
 opportunity_list:
-  - id: OPP-20260219-001
-    date_found: 2026-02-19
-    source: Tech Returners / Northcoders
-    role_title: Associate Data Engineer (Returner Program)
-    company: Various (via Tech Returners)
-    location: Manchester (Hybrid/Remote)
-    business_context:
-      pain_hypothesis: "Talent gap in data engineering; need for diverse, experienced hires returning to tech."
-      hiring_trigger: "Ongoing program cohorts."
-    work_style: Hybrid
-    employment_type: Program
-    seniority: Returner
-    priority: P1
-    category: DATA
-    fit_score: 9
-    fit_reasons:
-      - "Perfect Pivot aligned: Structured upskilling + guaranteed interview."
-      - "Matches 'Returner/Bridge' North Star."
-    risks_or_gaps:
-      - "Highly competitive entry."
-      - "Fixed start dates (cohort based)."
-    requirements:
-      must_have:
-        - "Previous tech experience or STEM background."
-        - "Interest in Data/Cloud."
-      nice_to_have:
-        - "Python/SQL basics."
-    actions:
-      next_step: "Submit Application Pack"
-      owner: Danny
-      deadline: 2026-02-21
-    evidence:
-      link: "https://www.techreturners.com/"
-      notes: "Check specifically for 'Counter' or 'Northcoders' associate roles."
-    status: Discovered
-
-  - id: OPP-20260219-002
-    date_found: 2026-02-19
-    source: BuiltInManchester
-    role_title: Senior Technical Support Specialist
-    company: Aareon Group
-    location: Manchester
-    business_context:
-      pain_hypothesis: "Complex SaaS property management software requiring deep troubleshooting beyond scripts."
-      hiring_trigger: "Growth/Stability needs."
-    work_style: Hybrid
-    employment_type: Permanent
-    seniority: Senior
-    priority: P2
-    category: SUPPORT
-    fit_score: 8
-    fit_reasons:
-      - "Strong Support background alignment (Speed Mode)."
-      - "SQL requirement matches current skills."
-      - "SaaS context matches ChannelGrabber experience."
-    risks_or_gaps:
-      - "Might be too manual/legacy?"
-      - "Need to verify 'Senior' expectations vs Salary."
-    requirements:
-      must_have:
-        - "SQL skills."
-        - "SaaS support experience."
-      nice_to_have:
-        - "Real estate tech experience."
-    actions:
-      next_step: "Intel Scan (Speed Mode)."
-      owner: Danny
-      deadline: 2026-02-21
-    evidence:
-      link: "https://www.builtinmanchester.uk/"
-      notes: "Search result via Aareon Group."
-    status: Discovered
-
-  - id: OPP-20260219-003
-    date_found: 2026-02-19
-    source: Indeed
-    role_title: Junior Regulatory Data SQL Support Engineer
-    company: Unknown (Salford based)
-    location: Salford/Manchester
-    business_context:
-      pain_hypothesis: "Regulatory reporting requires accuracy; manual errors are costly."
-      hiring_trigger: "Compliance needs."
-    work_style: Onsite/Hybrid (Verify)
-    employment_type: Permanent
-    seniority: Junior/Associate
-    priority: P1
-    category: OPS
-    fit_score: 9
-    fit_reasons:
-      - "Perfect Bridge role: Support title + Data duties."
-      - "SQL heavy - builds the 'Data Engineer' evidence block."
-      - "Regulatory context implies high value on accuracy (SSOT strength)."
-    risks_or_gaps:
-      - "Salford location - check commute <30m?"
-      - "Legacy stack risk?"
-    requirements:
-      must_have:
-        - "Strong SQL."
-        - "Data accuracy focus."
-      nice_to_have:
-        - "Financial/Regulatory knowledge."
-    actions:
-      next_step: "Locate direct job posting."
-      owner: Danny
-      deadline: 2026-02-21
-    evidence:
-      link: "Search Result: Junior Regulatory Data SQL Support Engineer"
-      notes: "Found via Indeed aggregation."
-    status: Discovered
-
-  - id: OPP-20260219-004
-    date_found: 2026-02-19
-    source: Counter (Northcoders Group)
-    role_title: Associate Data Engineer
-    company: Counter
-    location: Manchester (Hybrid)
-    business_context:
-      pain_hypothesis: "Need reliable, easily supervised engineers to manage ETL and data lakes on client projects."
-      hiring_trigger: "Scaling consultancy team/accelerating graduates."
-    work_style: Hybrid
-    employment_type: Permanent
-    seniority: Associate
-    priority: P1
-    category: DATA
-    fit_score: 9
-    fit_reasons:
-      - "Specifically targets 'fast-tracking graduates' and career switchers, perfectly aligning with Danny's North Star pivot."
-      - "Matches Data Engineer targets with support for upskilling."
-    risks_or_gaps:
-      - "Specific 'data lake' knowledge not strongly evidenced in SSOT yet."
-      - "Consulting pace may differ from SaaS support pace."
-    requirements:
-      must_have:
-        - "ETL pipeline experience"
-        - "Python"
-        - "SQL"
-      nice_to_have:
-        - "Data warehousing knowledge"
-    actions:
-      next_step: "Wait for response."
-      owner: Danny
-      deadline: 2026-02-23
-    evidence:
-      link: "https://www.bebee.com/ (Search: Counter Associate Data Engineer Manchester)"
-      notes: "Offers support and extra training, aligns with bridge role."
-    status: Submitted
-    outcome:
-      date_shortlisted: 2026-02-19
-      date_started: 2026-02-19
-      date_submitted: 2026-02-19
-      application_id: "applications/2026-02-19-Counter"
-
-  - id: OPP-20260219-005
-    date_found: 2026-02-19
-    source: Socium Recruitment
-    role_title: Junior Data Engineer
-    company: Unknown (via Socium)
-    location: Manchester (Hybrid)
-    business_context:
-      pain_hypothesis: "Growing data infrastructure requires junior resources to support and maintain Azure pipelines."
-      hiring_trigger: "Team expansion/building modern data platforms."
-    work_style: Hybrid
-    employment_type: Permanent
-    seniority: Junior
-    priority: P3
-    category: DATA
-    fit_score: 8
-    fit_reasons:
-      - "Explicitly described as a 'proper junior position for someone keen to learn'."
-      - "Offers mentorship from senior engineers, ideal for bridging the gap."
-    risks_or_gaps:
-      - "Azure specific (ADF, Databricks); Danny's SSOT focuses more on general Python/SQL/n8n."
-    requirements:
-      must_have:
-        - "Python"
-        - "SQL"
-      nice_to_have:
-        - "Azure Data Factory"
-        - "Azure Databricks"
-    actions:
-      next_step: "Submit Application via Socium Portal"
-      owner: Danny
-      deadline: 2026-02-23
-    evidence:
-      link: "https://www.dataengineeringjobs.co.uk/"
-      notes: "Mentorship-focused role."
-    status: ReadyToSubmit
-
-  - id: OPP-20260219-006
-    date_found: 2026-02-19
-    source: Digital Waffle
-    role_title: M365 Implementation Engineer
-    company: Unknown (via Digital Waffle)
-    location: Remote UK
-    business_context:
-      pain_hypothesis: "Clients need stable onboarding and migration to Microsoft 365, requiring strong client lifecycle ownership."
-      hiring_trigger: "High volume of SaaS onboarding."
-    work_style: Remote
-    employment_type: Permanent
-    seniority: Associate/Mid
-    priority: P3
-    category: IMP
-    fit_score: 8
-    fit_reasons:
-      - "Directly aligns with existing 10-year track record in Implementation and SaaS onboarding."
-      - "Focus on 'training and growth' implies openness to upskilling."
-    risks_or_gaps:
-      - "M365 specific administration vs general SaaS."
-    requirements:
-      must_have:
-        - "Implementation experience"
-        - "Client communication"
-      nice_to_have:
-        - "M365 migration experience"
-    actions:
-      next_step: "Review implementation overlap and decide if it advances the Data pivot."
-      owner: Danny
-      deadline: 2026-02-23
-    evidence:
-      link: "https://www.studysmarter.co.uk/"
-      notes: "Remote UK M365 Implementation Engineer."
-    status: Discovered
+- id: OPP-20260219-001
+  date_found: 2026-02-19
+  source: Tech Returners / Northcoders
+  role_title: Associate Data Engineer (Returner Program)
+  company: Various (via Tech Returners)
+  location: Manchester (Hybrid/Remote)
+  business_context:
+    pain_hypothesis: Talent gap in data engineering; need for diverse, experienced
+      hires returning to tech.
+    hiring_trigger: Ongoing program cohorts.
+  work_style: Hybrid
+  employment_type: Program
+  seniority: Returner
+  priority: P1
+  category: DATA
+  fit_score: 9
+  fit_reasons:
+  - 'Perfect Pivot aligned: Structured upskilling + guaranteed interview.'
+  - Matches 'Returner/Bridge' North Star.
+  risks_or_gaps:
+  - Highly competitive entry.
+  - Fixed start dates (cohort based).
+  requirements:
+    must_have:
+    - Previous tech experience or STEM background.
+    - Interest in Data/Cloud.
+    nice_to_have:
+    - Python/SQL basics.
+  actions:
+    next_step: Submit Application Pack
+    owner: Danny
+    deadline: 2026-02-21
+  evidence:
+    link: https://www.techreturners.com/
+    notes: Check specifically for 'Counter' or 'Northcoders' associate roles.
+  status: Discovered
+  deployment_track: Pivot
+  life_fit_score: 9
+  logistics_clearance:
+    salary_floor_met: false
+    commute_viable: true
+    remote_flexibility: Hybrid
+- id: OPP-20260219-002
+  date_found: 2026-02-19
+  source: BuiltInManchester
+  role_title: Senior Technical Support Specialist
+  company: Aareon Group
+  location: Manchester
+  business_context:
+    pain_hypothesis: Complex SaaS property management software requiring deep troubleshooting
+      beyond scripts.
+    hiring_trigger: Growth/Stability needs.
+  work_style: Hybrid
+  employment_type: Permanent
+  seniority: Senior
+  priority: P2
+  category: SUPPORT
+  fit_score: 8
+  fit_reasons:
+  - Strong Support background alignment (Velocity Track).
+  - SQL requirement matches current skills.
+  - SaaS context matches ChannelGrabber experience.
+  risks_or_gaps:
+  - Might be too manual/legacy?
+  - Need to verify 'Senior' expectations vs Salary.
+  requirements:
+    must_have:
+    - SQL skills.
+    - SaaS support experience.
+    nice_to_have:
+    - Real estate tech experience.
+  actions:
+    next_step: Intel Scan (Velocity Track).
+    owner: Danny
+    deadline: 2026-02-21
+  evidence:
+    link: https://www.builtinmanchester.uk/
+    notes: Search result via Aareon Group.
+  status: Discovered
+  deployment_track: Velocity
+  life_fit_score: 8
+  logistics_clearance:
+    salary_floor_met: false
+    commute_viable: true
+    remote_flexibility: Hybrid
+- id: OPP-20260219-003
+  date_found: 2026-02-19
+  source: Indeed
+  role_title: Junior Regulatory Data SQL Support Engineer
+  company: Unknown (Salford based)
+  location: Salford/Manchester
+  business_context:
+    pain_hypothesis: Regulatory reporting requires accuracy; manual errors are costly.
+    hiring_trigger: Compliance needs.
+  work_style: Onsite/Hybrid (Verify)
+  employment_type: Permanent
+  seniority: Junior/Associate
+  priority: P1
+  category: OPS
+  fit_score: 9
+  fit_reasons:
+  - 'Perfect Bridge role: Support title + Data duties.'
+  - SQL heavy - builds the 'Data Engineer' evidence block.
+  - Regulatory context implies high value on accuracy (SSOT strength).
+  risks_or_gaps:
+  - Salford location - check commute <30m?
+  - Legacy stack risk?
+  requirements:
+    must_have:
+    - Strong SQL.
+    - Data accuracy focus.
+    nice_to_have:
+    - Financial/Regulatory knowledge.
+  actions:
+    next_step: Locate direct job posting.
+    owner: Danny
+    deadline: 2026-02-21
+  evidence:
+    link: 'Search Result: Junior Regulatory Data SQL Support Engineer'
+    notes: Found via Indeed aggregation.
+  status: Discovered
+  deployment_track: Velocity
+  life_fit_score: 9
+  logistics_clearance:
+    salary_floor_met: false
+    commute_viable: true
+    remote_flexibility: Hybrid
+- id: OPP-20260219-004
+  date_found: 2026-02-19
+  source: Counter (Northcoders Group)
+  role_title: Associate Data Engineer
+  company: Counter
+  location: Manchester (Hybrid)
+  business_context:
+    pain_hypothesis: Need reliable, easily supervised engineers to manage ETL and
+      data lakes on client projects.
+    hiring_trigger: Scaling consultancy team/accelerating graduates.
+  work_style: Hybrid
+  employment_type: Permanent
+  seniority: Associate
+  priority: P1
+  category: DATA
+  fit_score: 9
+  fit_reasons:
+  - Specifically targets 'fast-tracking graduates' and career switchers, perfectly
+    aligning with Danny's North Star pivot.
+  - Matches Data Engineer targets with support for upskilling.
+  risks_or_gaps:
+  - Specific 'data lake' knowledge not strongly evidenced in SSOT yet.
+  - Consulting pace may differ from SaaS support pace.
+  requirements:
+    must_have:
+    - ETL pipeline experience
+    - Python
+    - SQL
+    nice_to_have:
+    - Data warehousing knowledge
+  actions:
+    next_step: Wait for response.
+    owner: Danny
+    deadline: 2026-02-23
+  evidence:
+    link: 'https://www.bebee.com/ (Search: Counter Associate Data Engineer Manchester)'
+    notes: Offers support and extra training, aligns with bridge role.
+  status: Submitted
+  outcome:
+    date_shortlisted: 2026-02-19
+    date_started: 2026-02-19
+    date_submitted: 2026-02-19
+    application_id: applications/2026-02-19-Counter
+  deployment_track: Pivot
+  life_fit_score: 9
+  logistics_clearance:
+    salary_floor_met: false
+    commute_viable: true
+    remote_flexibility: Hybrid
+- id: OPP-20260219-005
+  date_found: 2026-02-19
+  source: Socium Recruitment
+  role_title: Junior Data Engineer
+  company: Unknown (via Socium)
+  location: Manchester (Hybrid)
+  business_context:
+    pain_hypothesis: Growing data infrastructure requires junior resources to support
+      and maintain Azure pipelines.
+    hiring_trigger: Team expansion/building modern data platforms.
+  work_style: Hybrid
+  employment_type: Permanent
+  seniority: Junior
+  priority: P3
+  category: DATA
+  fit_score: 8
+  fit_reasons:
+  - Explicitly described as a 'proper junior position for someone keen to learn'.
+  - Offers mentorship from senior engineers, ideal for bridging the gap.
+  risks_or_gaps:
+  - Azure specific (ADF, Databricks); Danny's SSOT focuses more on general Python/SQL/n8n.
+  requirements:
+    must_have:
+    - Python
+    - SQL
+    nice_to_have:
+    - Azure Data Factory
+    - Azure Databricks
+  actions:
+    next_step: Submit Application via Socium Portal
+    owner: Danny
+    deadline: 2026-02-23
+  evidence:
+    link: https://www.dataengineeringjobs.co.uk/
+    notes: Mentorship-focused role.
+  status: ReadyToSubmit
+  deployment_track: Pivot
+  life_fit_score: 8
+  logistics_clearance:
+    salary_floor_met: false
+    commute_viable: true
+    remote_flexibility: Hybrid
+- id: OPP-20260219-006
+  date_found: 2026-02-19
+  source: Digital Waffle
+  role_title: M365 Implementation Engineer
+  company: Unknown (via Digital Waffle)
+  location: Remote UK
+  business_context:
+    pain_hypothesis: Clients need stable onboarding and migration to Microsoft 365,
+      requiring strong client lifecycle ownership.
+    hiring_trigger: High volume of SaaS onboarding.
+  work_style: Remote
+  employment_type: Permanent
+  seniority: Associate/Mid
+  priority: P3
+  category: IMP
+  fit_score: 8
+  fit_reasons:
+  - Directly aligns with existing 10-year track record in Implementation and SaaS
+    onboarding.
+  - Focus on 'training and growth' implies openness to upskilling.
+  risks_or_gaps:
+  - M365 specific administration vs general SaaS.
+  requirements:
+    must_have:
+    - Implementation experience
+    - Client communication
+    nice_to_have:
+    - M365 migration experience
+  actions:
+    next_step: Review implementation overlap and decide if it advances the Data pivot.
+    owner: Danny
+    deadline: 2026-02-23
+  evidence:
+    link: https://www.studysmarter.co.uk/
+    notes: Remote UK M365 Implementation Engineer.
+  status: Discovered
+  deployment_track: Velocity
+  life_fit_score: 8
+  logistics_clearance:
+    salary_floor_met: false
+    commute_viable: true
+    remote_flexibility: Remote

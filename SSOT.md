@@ -32,6 +32,7 @@ Any measurable claim must be labeled:
 - **VERIFIED (External Proof):** MUST have a public link, screenshot, exported report, ticket log, repo, or third-party confirmation. If you cannot link to it, it is NOT verified.
 - **REALITY PROOF (Dates/Identity):** Employment dates, contact details, identity facts (LinkedIn/CV timeline).
 - **SUPPORTED (SSOT):** Plausible claim grounded in role/project description, but lacks external public proof.
+- **OPERATIONAL_PROOF (Internal Enterprise Specificity):** Internal enterprise work lacking a public link. Valid only when making high-resolution technical specificity claims (incident patterns, troubleshooting sequences, runbook ownership, migration safeguards) and must be anchored to SSOT role/project context.
 - **UNVERIFIED (Do Not Use):** Remove from CV/cover letters.
 
 ### 1.2 Banned claims (do not use unless VERIFIED with external proof)
@@ -85,6 +86,11 @@ Shortlist → apply → follow up → interview → close.
 ---
 
 ## 4) Positioning (Approved, Evidence-Safe)
+### Track Model (Canonical)
+- **Velocity Track (Day-1 Legacy Impact):** Position Danny as a senior Support/Implementation specialist focused on operational stability, incident management, client lifecycle reliability, and risk mitigation.
+- **Pivot Track (Data Engineering Trajectory):** Position Danny as a bridge candidate translating 10+ years of operational rigour into modern Data/Automation engineering workflows.
+- Both tracks are canonically valid goals and may be used based on opportunity logistics and fit.
+
 ### One-liner (approved)
 Delivery-first Implementation & Support specialist (10+ years) applying operational rigour to **AI-augmented automation** (n8n, APIs, SQL). I reduce delivery risk by treating workflows as production software: versioned, documented, and validated.
 
